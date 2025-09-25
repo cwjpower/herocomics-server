@@ -1,0 +1,4 @@
+CREATE DATABASE IF NOT EXISTS herocomics CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE USER IF NOT EXISTS "hero"@"%" IDENTIFIED BY "heropass";
+GRANT ALL PRIVILEGES ON herocomics.* TO "hero"@"%";
+FLUSH PRIVILEGES;

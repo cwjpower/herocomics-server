@@ -1,0 +1,8 @@
+<?php
+// Guard essential constants for legacy code
+if (!defined('ABS_PATH')) define('ABS_PATH', __DIR__);
+if (!defined('INC_PATH')) define('INC_PATH', __DIR__ . '/web/includes');
+if (!defined('LIB_PATH')) define('LIB_PATH', __DIR__ . '/web/lib');
+
+require_once __DIR__ . '/web/wps-vars.php';
+require_once __DIR__ . '/web/wps-settings.php';

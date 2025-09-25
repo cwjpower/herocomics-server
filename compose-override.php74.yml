@@ -1,0 +1,12 @@
+# compose-override.php74.yml
+# 기존 docker-compose.yml과 함께 사용: 
+#   docker compose -f docker-compose.yml -f compose-override.php74.yml up -d --build
+# 기존 파일의 다른 서비스/설정은 그대로 유지됩니다.
+
+services:
+  php:
+    build:
+      context: ./docker/php74
+      dockerfile: Dockerfile
+    volumes:
+      - ./app:/var/www/html

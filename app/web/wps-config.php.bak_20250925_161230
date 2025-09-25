@@ -1,0 +1,25 @@
+<?php
+declare(strict_types=1);
+if (!defined('ABS_PATH'))    define('ABS_PATH', dirname(__DIR__));
+if (!defined('WEB_PATH'))    define('WEB_PATH', ABS_PATH . '/web');
+if (!defined('INC_PATH'))    define('INC_PATH', WEB_PATH . '/inc');
+if (!defined('FUNC_PATH'))   define('FUNC_PATH', WEB_PATH . '/functions');
+if (!defined('MOBILE_PATH')) define('MOBILE_PATH', WEB_PATH . '/mobile');
+if (!defined('ADMIN_PATH'))  define('ADMIN_PATH', WEB_PATH . '/admin');
+?php
+declare(strict_types=1);
+
+// /var/www/html/web 湲곗??쇰줈 ???④퀎 ??=> /var/www/html
+if (!defined('ABS_PATH'))   /* old ABS_PATH removed */
+
+// ?몄쓽 寃쎈줈 ?곸닔
+if (!defined('WEB_PATH'))   define('WEB_PATH', ABS_PATH . '/web');
+if (!defined('INC_PATH'))   define('INC_PATH', WEB_PATH . '/inc');
+if (!defined('FUNC_PATH'))  define('FUNC_PATH', WEB_PATH . '/functions');
+if (!defined('MOBILE_PATH'))define('MOBILE_PATH', WEB_PATH . '/mobile');
+if (!defined('ADMIN_PATH')) define('ADMIN_PATH', WEB_PATH . '/admin');
+
+// (?꾩슂??URL ?곸닔???ш린???명똿)
+// if (!defined('BASE_URL'))   define('BASE_URL', 'http://localhost:8081');
+// if (!defined('MOBILE_URL')) define('MOBILE_URL', BASE_URL . '/mobile');
+// if (!defined('INC_URL'))    define('INC_URL', BASE_URL . '/inc');

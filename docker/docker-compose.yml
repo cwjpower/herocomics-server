@@ -1,0 +1,23 @@
+# docker-compose.yml (예시) — 기존 환경에 맞춰 조정 가능
+# 참고: compose v2부터는 'version:' 키를 쓰지 않습니다.
+services:
+  php:
+    build:
+      context: ./docker/php74
+      dockerfile: Dockerfile
+    volumes:
+      - ./app:/var/www/html
+    # environment:
+    #   - SOME_ENV=value
+
+  nginx:
+    image: nginx:alpine
+    depends_on:
+      - php
+    ports:
+      - "8081:80"
+    volumes:
+      - ./app:/var/www/html:ro
+      - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+
+# networks, volumes 섹션은 필요 시 추가하세요.
