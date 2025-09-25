@@ -1,4 +1,6 @@
-vendor/
+﻿vendor/
 node_modules/
 web/uploads/
 *.log
+.env
+.DS_Store
