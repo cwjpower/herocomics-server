@@ -4,3 +4,7 @@ web/uploads/
 *.log
 .env
 .DS_Store
+# Backups / temps
+*.bak
+*.bak.*
+app/_mount_check.txt

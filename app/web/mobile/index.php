@@ -8,6 +8,8 @@ require_once __DIR__ . '/../wps-config.php';
 require_once __DIR__ . '/../wps-settings.php';
 require_once FUNC_PATH . '/functions-book.php';
 require_once FUNC_PATH . '/functions-page.php';
+require_once dirname(__DIR__) . "/functions/functions-book.php";
+
 
 
 // ???노츓??琉용뼁??$todays_new = lps_get_todays_new_book(6);
