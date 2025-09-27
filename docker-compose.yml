@@ -1,25 +1,4 @@
-version: "3.9"
-
-services:
-  nginx:
-    image: nginx:1.27-alpine
-    restart: unless-stopped
-    ports:
-      - "8081:80"          # 브라우저 접속: http://localhost:8081
-    volumes:
-      - ./app:/var/www/html
-      - ./ops/nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
-    depends_on:
-      - php
-
-  php:
-    build: ./ops/php
-    restart: unless-stopped
-    volumes:
-      - ./app:/var/www/html
-    environment:
-      PHP_MEMORY_LIMIT: 256M
-
+﻿services:
   mariadb:
     image: mariadb:10.11
     restart: unless-stopped
@@ -27,12 +6,40 @@ services:
       MARIADB_ROOT_PASSWORD: rootpass
       MARIADB_DATABASE: herocomics
       MARIADB_USER: hero
-      MARIADB_PASSWORD: heropass
+      MARIADB_PASSWORD: hero_pass
+
     ports:
-      - "33061:3306"
+      - "33060:3306"
     volumes:
-      - dbdata:/var/lib/mysql
-      - ./ops/db/init.sql:/docker-entrypoint-initdb.d/00_init.sql:ro
+      - db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -uroot -p$${MARIADB_ROOT_PASSWORD} --silent"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  php:
+    build:
+      context: ./php82          # ??./docker/php74 (X)
+      container_name: herocomics
+      dockerfile: Dockerfile
+    depends_on:
+      mariadb:
+        condition: service_healthy
+    volumes:
+      - ../app:/var/www/html    # ??./app (X)
+
+  nginx:
+    image: nginx:1.27-alpine
+    depends_on:
+      - php
+    ports:
+      - "8081:80"
+    volumes:
+      - ../app:/var/www/html:ro
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro  # ??./docker/nginx/... (X)
 
 volumes:
-  dbdata:
+  db_data:
+
+
