@@ -39,3 +39,8 @@ vendor/
 # extra safety
 *.bak.
 
+db/
+db_backup_*/
+*.sql
+*.ibd
+ib_logfile*
