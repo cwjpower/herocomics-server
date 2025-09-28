@@ -1,1 +1,0 @@
-<?php require __DIR__."/functions.php"; require __DIR__."/_auth.php"; require_login(); require __DIR__."/_layout.php"; admin_header("사용자 관리"); echo "<div class='card'>사용자 관리 화면은 곧 제공됩니다.</div>"; admin_footer();
