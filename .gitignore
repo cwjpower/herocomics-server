@@ -67,3 +67,26 @@ tmp/
 # DB dumps
 *.sql
 *.sql.gz
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets & local env
+.env
+*.env
+app/**/secrets*/
+app/**/config.local.php
+
+# Vendor / build / cache
+vendor/
+node_modules/
+dist/
+build/
+tmp/
+*.log
+
+# DB dumps
+*.sql
+*.sql.gz
