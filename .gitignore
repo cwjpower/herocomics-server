@@ -90,3 +90,5 @@ tmp/
 # DB dumps
 *.sql
 *.sql.gz
+
+!_tmp_extract/**
