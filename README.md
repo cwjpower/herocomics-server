@@ -1,21 +1,9 @@
-# HeroComics Server Skeleton
+﻿# HeroComics Server
 
-## Quick Start
-1. Copy your web sources into `app/web` (admin in `app/web/admin`).
-2. Run:
-   ```powershell
-   .\scripts\up.ps1
-   ```
-3. Check:
-   - http://localhost:8081/
-   - http://localhost:8081/_dbcheck.php
+- Docker Compose (Nginx 1.27, PHP 8.2, MariaDB 11)
+- App root: pp/ (웹 문서는 /app → 컨테이너 /var/www/html)
+- 접속: http://127.0.0.1:8888/web/admin/
 
-## DB import
-```powershell
-.\scripts\db_import.ps1 C:\path	o\dump.sql
-```
+## Quick start
+docker compose -f docker/docker-compose.yml up -d --build
 
-## Notes
-- MariaDB mapped to host port **33061** to avoid conflicts.
-- Nginx root is **/var/www/html/web** (i.e., `app/web` on host).
-- PHP 8.2 with mysqli, pdo_mysql, mbstring, gd, zip, intl, opcache.
