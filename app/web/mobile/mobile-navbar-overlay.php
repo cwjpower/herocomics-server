@@ -1,6 +1,4 @@
-<!-- panel -->
-			<div data-role="panel" id="overlayPanel" data-display="overlay" data-position="right">
-		<?php 
+<?php 
 		if ( !wps_get_current_user_id() ) {		// 로그인 전
 		?>
 				<div class="panel-area user-login"><!-- display:none; -->

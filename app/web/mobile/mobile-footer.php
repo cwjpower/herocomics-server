@@ -1,3 +1,4 @@
+<?php
 <script>
 		$(function() {
 			$(".btn-search").click(function() {

@@ -1,0 +1,22 @@
+﻿# uploads & 이미지 실파일은 저장소 제외
+/uploads/
+/images/
+/admin/uploads/
+
+# 임시/로그/백업
+*.log
+*.tmp
+*.bak
+*.sql
+
+# 디버그/유틸 스크립트는 커밋 금지
+/phpinfo.php
+/*_debug*.php
+
+# IDE
+.vscode/
+.idea/
+# 더 강한 백업/임시 제외
+*.bak
+*.bak.*
+*~

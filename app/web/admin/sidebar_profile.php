@@ -1,6 +1,4 @@
-<div class="user-panel">
-						<div class="pull-left image">
-							<img src="<?php echo lps_get_user_avatar() ?>" class="img-circle" alt="User Image">
+<?php echo lps_get_user_avatar() ?>" class="img-circle" alt="User Image">
 						</div>
 						<div class="pull-left info" style="width: 70%;">
 							<div class="pull-right"><a href="<?php echo ADMIN_URL ?>/users/profile.php"><i class="fa fa-gear"></i></a></div>

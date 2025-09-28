@@ -1,7 +1,4 @@
-<footer class="main-footer">
-				<div class="pull-right hidden-xs">
-					<b>BookTalk</b> CMS
-					<a href="<?php echo ADMIN_URL ?>/category/?tkey=wps_category_admin_menu"><i class="fa fa-gears"></i></a>
+<?php echo ADMIN_URL ?>/category/?tkey=wps_category_admin_menu"><i class="fa fa-gears"></i></a>
 				</div>
 				<strong>Copyright &copy; 2016 <a href="#">Bicon</a>.</strong> All rights reserved.
 			</footer>

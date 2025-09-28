@@ -1,0 +1,10 @@
+array (
+  'type' => 1,
+  'message' => 'Uncaught Error: Undefined constant "INC_URL" in /var/www/html/web/mobile/index.php:47
+Stack trace:
+#0 /var/www/html/web/mobile/_debug_run.php(12): require()
+#1 {main}
+  thrown',
+  'file' => '/var/www/html/web/mobile/index.php',
+  'line' => 47,
+)

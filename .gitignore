@@ -1,10 +1,41 @@
-﻿vendor/
-node_modules/
-web/uploads/
+﻿# secrets
+/docker/.env
+**/*.env
+
+# DB 데이터/백업/로그
+/db/
+backup/
+/docker/nginx/logs/
+
+# 업로드/이미지(용량 큼) — 필요 시 샘플만 커밋
+/app/images/
+/app/uploads/
+/app/web/images/
+/app/web/uploads/
+/app/web/admin/uploads/
+
+# 임시/백업/툴
 *.log
-.env
-.DS_Store
-# Backups / temps
+*.tmp
 *.bak
 *.bak.*
-app/_mount_check.txt
+*~
+/app/web/phpinfo.php
+/app/web/*_debug*.php
+/app/web/admin_*fix*/
+/app/web/admin_hotfix_20250926/
+/app/web/admin_shell_20250926/
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 기타
+node_modules/
+vendor/
+
+# extra safety
+*.bak.
+

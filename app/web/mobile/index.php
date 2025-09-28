@@ -1,6 +1,7 @@
 <?php
-/*
- * Desc : 嶺뚮∥??? */
+declare(strict_types=1);
+require_once __DIR__ . '/../wps-config.php';
+
 ini_set('display_errors', '1');
 error_reporting(E_ALL);
 
@@ -8,26 +9,27 @@ require_once __DIR__ . '/../wps-config.php';
 require_once __DIR__ . '/../wps-settings.php';
 require_once FUNC_PATH . '/functions-book.php';
 require_once FUNC_PATH . '/functions-page.php';
+require_once __DIR__ . "/functions.php";
 require_once dirname(__DIR__) . "/functions/functions-book.php";
 
 
 
-// ???노츓??琉용뼁??$todays_new = lps_get_todays_new_book(6);
+// ????癲ル슢??????轅붽틓????嚥????$todays_new = lps_get_todays_new_book(6);
 
-// ??ｋ걞????낅폃 ??亦?from page??㉱???뺢퀣伊?????亦?
+// ??傭?끆??????猷???????筌믨껴逾?????from page?????怨멸텛???????鶯ㅺ동??ш낄援????????
 $best_rank_book = wps_get_option( 'lps_best_rank_1000' );
-$best_books = unserialize($best_rank_book);
+$best_books = unserialize((string)(string)(string)(string)$best_rank_book);
 
-// ??ㅻ쾴?????for web
+// ??????⑤９??????for web
 $notice_rows = lps_get_posts_by_type( 'notice_new', 3, 'web');
 
-// ?怨쀫츎??????곸젍?熬곣뫕??from page??㉱??admin
+// ??????????????????⑤뜪??????獄쏅챶留??from page?????怨멸텛???admin
 $publisher_rows = lps_get_publishers();
 
-// ??????怨력?from page??㉱??admin
+// ??????????源놁７??from page?????怨멸텛???admin
 $curations = lps_get_main_curations();
 
-// 嶺뚮∥????꾩룄?←몭?$banners = lps_get_front_banners();
+// ?耀붾굝????????????밸븶筌믩끃?????濾?$banners = lps_get_front_banners();
 
 ?>
 <!DOCTYPE html>
@@ -35,7 +37,7 @@ $curations = lps_get_main_curations();
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="?熬곣뫗?썹춯? ?????洹먮맧?? ??ｋ걞????낅폃, ?熬곣뱭?泥?">
+		<meta name="description" content="?????獄쏅챶留??????? ?????????얠뺏??븍툙??? ??傭?끆??????猷???????筌믨껴逾? ???????뉙뀭???">
 		<title>BOOK talk</title>
 		<link rel="shortcut icon" href="favicon.ico">
 		<!-- css -->
@@ -113,7 +115,7 @@ require_once MOBILE_PATH . '/mobile-navbar-overlay.php';
 				<div class="main-cont">
 					<!-- newbook-list -->
 					<div class="list-view-area">
-						<h2 class="list-tit">???노츓????ル맩??/h2>
+						<h2 class="list-tit">????癲ル슢??????????影??젌??/h2>
 						<ul class="main-newbook-list">
 				<?php
 				if ( !empty($todays_new) ) {
@@ -149,17 +151,17 @@ require_once MOBILE_PATH . '/mobile-navbar-overlay.php';
 				?>
 							
 						</ul>
-						<a href="<?php echo MOBILE_URL ?>/book/today_new.php" data-ajax="false" class="btn-more">?熬곣뫕?η솻洹ｋ뼬??/a>
+						<a href="<?php echo MOBILE_URL ?>/book/today_new.php" data-ajax="false" class="btn-more">?????獄쏅챶留????潁??????????/a>
 					</div>
 					<!-- newbook-list End -->
 					<!-- community-ranking -->
 					<div class="list-view-area">
-						<h2 class="list-tit">??ｋ걞????낅폃 ??亦?/h2>
+						<h2 class="list-tit">??傭?끆??????猷???????筌믨껴逾?????/h2>
 						<div class="community-bnr-area">
 							<div class="com-bnr">
 								<ul class="main-newbook-list">
 						<?php
-						// ??⑤챷留?10??						if ( !empty($best_books) ) {
+						// ???????살몝??10??						if ( !empty($best_books) ) {
 							foreach ( $best_books as $key => $val ) {
 								
 								$book_rows = lps_get_book($val);
@@ -176,7 +178,7 @@ require_once MOBILE_PATH . '/mobile-navbar-overlay.php';
 										<div class="booklist-img-l">
 											<div class="book-img-box">
 												<div class="book-opc"></div>
-												<a href="<?php echo MOBILE_URL ?>/book/book.php?id=<?php echo $book_id ?>" data-ajax="false"><img class="book-img" src="<?php echo $cover_img ?>" title="嶺????"></a>
+												<a href="<?php echo MOBILE_URL ?>/book/book.php?id=<?php echo $book_id ?>" data-ajax="false"><img class="book-img" src="<?php echo $cover_img ?>" title="?????"></a>
 											</div>
 										</div>
 										<div class="booklist-txt-r">
@@ -194,12 +196,12 @@ require_once MOBILE_PATH . '/mobile-navbar-overlay.php';
 								</ul>
 							</div>
 						</div>
-						<a href="<?php echo MOBILE_URL ?>/book/community_rank.php" data-ajax="false" class="btn-more">?熬곣뫕?η솻洹ｋ뼬??/a>
+						<a href="<?php echo MOBILE_URL ?>/book/community_rank.php" data-ajax="false" class="btn-more">?????獄쏅챶留????潁??????????/a>
 					</div>
 					<!-- community-ranking End -->
 					<!-- publisher-book -->
 					<div class="list-view-area">
-						<h2 class="list-tit">?怨쀫츎??????곸젍?熬곣뫕??/h2>
+						<h2 class="list-tit">??????????????????⑤뜪??????獄쏅챶留??/h2>
 						<ul class="main-newbook-list">
 				<?php
 				if ( !empty($publisher_rows) ) {
@@ -233,7 +235,7 @@ require_once MOBILE_PATH . '/mobile-navbar-overlay.php';
 									</div>
 								</div>
 								<div class="booklist-txt-r">
-									<div class="main-publisher-name"><a href="#">??쒖구????뺥맟</a></div>
+									<div class="main-publisher-name"><a href="#">???癲???????꿔꺂?€??</a></div>
 								</div>
 							</li> -->
 				<?php 
@@ -241,12 +243,12 @@ require_once MOBILE_PATH . '/mobile-navbar-overlay.php';
 				}
 				?>
 						</ul>
-						<a href="<?php echo MOBILE_URL ?>/book/publisher.php" data-ajax="false" class="btn-more">?熬곣뫕?η솻洹ｋ뼬??/a>
+						<a href="<?php echo MOBILE_URL ?>/book/publisher.php" data-ajax="false" class="btn-more">?????獄쏅챶留????潁??????????/a>
 					</div>
 					<!-- publisher-book End -->
 					<!-- curating -->
 					<div class="list-view-area">
-						<h2 class="list-tit">???異녕솻???????袁⑥깚</h2>
+						<h2 class="list-tit">???????살퓢?????????????諛몃마???틙??/h2>
 						<ul class="main-newbook-list">
 				<?php
 				if ( !empty($curations) ) {
@@ -261,9 +263,9 @@ require_once MOBILE_PATH . '/mobile-navbar-overlay.php';
 						$user_id = $val['user_id'];
 						$created_dt = $val['created_dt'];
 						
-						$book_count = count(unserialize($curation_meta));
+						$book_count = count(unserialize((string)(string)(string)(string)$curation_meta));
 						
-						$cover_file = unserialize($cover_img);
+						$cover_file = unserialize((string)(string)(string)(string)$cover_img);
 						
 						$file_url = $cover_file['file_url'];
 						$file_name = $cover_file['file_name'];
@@ -288,12 +290,12 @@ require_once MOBILE_PATH . '/mobile-navbar-overlay.php';
 				}
 				?>
 						</ul>
-						<a href="<?php echo MOBILE_URL ?>/book/curation_list.php" data-ajax="false" class="btn-more">?熬곣뫕?η솻洹ｋ뼬??/a>
+						<a href="<?php echo MOBILE_URL ?>/book/curation_list.php" data-ajax="false" class="btn-more">?????獄쏅챶留????潁??????????/a>
 					</div>
 					<!-- curating End -->
 					<!-- notice -->
 					<div class="list-view-area">
-						<h2 class="list-tit">??ㅻ쾴?????/h2>
+						<h2 class="list-tit">??????⑤９??????/h2>
 						<ul class="notice-list">
 				<?php 
 				if (!empty($notice_rows)) {
@@ -307,7 +309,7 @@ require_once MOBILE_PATH . '/mobile-navbar-overlay.php';
 				}
 				?>
 						</ul>
-						<a href="<?php echo MOBILE_URL ?>/service/notice_list.php" data-ajax="false" class="btn-more">?熬곣뫕?η솻洹ｋ뼬??/a>
+						<a href="<?php echo MOBILE_URL ?>/service/notice_list.php" data-ajax="false" class="btn-more">?????獄쏅챶留????潁??????????/a>
 					</div>
 					<!-- notice End -->
 				</div>
@@ -316,15 +318,15 @@ require_once MOBILE_PATH . '/mobile-navbar-overlay.php';
 			<!-- footer -->
 			<div data-role="footer">
 				<div>
-					<a href="<?php echo MOBILE_URL ?>/service/terms.php" data-ajax="false">??怨몃뮔???</a>
+					<a href="<?php echo MOBILE_URL ?>/service/terms.php" data-ajax="false">???????ㅻ쑄????</a>
 					<span class="f-bar">l</span>
-					<a href="<?php echo MOBILE_URL ?>/service/privacy.php" data-ajax="false">?띠룇裕??筌먲퐢沅????た?誘?낯?諛몄턃</a>
+					<a href="<?php echo MOBILE_URL ?>/service/privacy.php" data-ajax="false">?????ル뒌?????饔낅떽???????????????????ш끽維뽳쭩?뱀땡??/a>
 					<span class="f-bar">l</span>
-					<a href="<?php echo MOBILE_URL ?>/service/cs.php" data-ajax="false">??μ쪙????좎댉</a>
+					<a href="<?php echo MOBILE_URL ?>/service/cs.php" data-ajax="false">?????????????????/a>
 					<span class="f-bar">l</span>
-					<a href="#">App???깅뮧</a>
+					<a href="#">App????μ떜媛?걫??</a>
 				</div>
-				<div><span>??戮곕뮲??嶺뚮씭?뉒뙴猷〓쨨???븐뼔援???쾳??섏뿉?396 11嶺?1103??(?熬곣뱿遊븅쪛????뮤?琉우꽑)</span></div>
+				<div><span>???轅붽틓?????얜?異???耀붾굝??????雅?퍔瑗?땟????룸챸???怨뚰뇞??????椰?????????癲ル슢???с궘?396 11??1103??(???????뉙뀭?欲꼲????⑤슦瑗ο┼?????沃섃뫚?????轅붽틓??????</span></div>
 				<!-- div><span class="f-bar">l</span> -->
 				<div><span>070 - 8832 - 9375</span></div>
 				<div class="f_logo">BOOK Talk</div>
@@ -335,3 +337,5 @@ require_once MOBILE_PATH . '/mobile-navbar-overlay.php';
 <?php 
 require_once MOBILE_PATH . '/mobile-footer.php';
 ?>
+    </body>
+</html>

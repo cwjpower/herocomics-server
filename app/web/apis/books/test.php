@@ -1,3 +1,4 @@
+<?php
 SELECT
 b.ID,
 b.book_title,
