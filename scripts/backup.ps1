@@ -1,15 +1,9 @@
-\
-param([string]$OutDir = "$(Join-Path $env:USERPROFILE 'Desktop\herocomic_backups')")
-New-Item -ItemType Directory -Force $OutDir | Out-Null
-$ts = Get-Date -Format yyyyMMdd_HHmm
-$dump = Join-Path $OutDir "db_herocomics_$ts.sql"
-$appzip = Join-Path $OutDir "app_herocomics_$ts.zip"
-
-# DB dump
-docker compose exec -T mariadb sh -lc 'mysqldump -u root -p"$MARIADB_ROOT_PASSWORD" --databases herocomics' > $dump
-
-# App zip
-Compress-Archive -LiteralPath (Join-Path $PSScriptRoot '..\app') -DestinationPath $appzip -Force
-
-Write-Host "Backups -> DB: $dump"
-Write-Host "Backups -> APP: $appzip"
+﻿$ErrorActionPreference='Stop'
+$BASE='C:\herocomics\server'
+$COMPOSE="C:\herocomics\server\docker\docker-compose.yml"
+$NGADDON="C:\herocomics\server\docker\docker-compose.nginx.addon.yml"
+$DEST=(Get-ChildItem "C:\herocomics\server\app" -Directory -Recurse | ?{ Test-Path (Join-Path $_ 'web\index.php') } | select -Expand FullName -First 1)
+$bk="C:\herocomics\server\backups"; New-Item -ItemType Directory -Force $bk | Out-Null
+$stamp=Get-Date -Format yyyyMMdd_HHmmss
+Compress-Archive -Path $DEST -DestinationPath (Join-Path $bk "app_$stamp.zip")
+docker compose -f $COMPOSE -f $NGADDON exec mariadb sh -lc "mysqldump -uhero -psecret --single-transaction --quick --routines --events herocomics" > (Join-Path $bk "db_$stamp.sql")

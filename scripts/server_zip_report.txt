@@ -1,0 +1,387 @@
+SUMMARY:
+{
+  "file_count": 39506,
+  "interesting_count": 11413,
+  "nginx_files": [
+    "docker/nginx-admin.conf",
+    "docker/nginx/conf.d/200-admin.conf",
+    "docker/nginx/conf.d/default-public.conf",
+    "docker/nginx/conf.d/default.conf",
+    "docker/nginx/default.app.conf",
+    "docker/nginx/default.conf",
+    "docker/nginx/default.heros.v2.conf",
+    "docker/nginx/nginx_admin.conf",
+    "ops/nginx/default.conf",
+    "ops/nginx/default_ssl.conf"
+  ],
+  "compose_files": [
+    "docker-compose.backup.yml",
+    "docker-compose.yml",
+    "docker/docker-compose.mariadb-health.yml",
+    "docker/docker-compose.mariadb-port.yml",
+    "docker/docker-compose.nginx.addon.yml",
+    "docker/docker-compose.php74.patch.yml",
+    "docker/docker-compose.yml"
+  ],
+  "admin_public": false,
+  "admin_index": true,
+  "php_with_bom_count": 11,
+  "forced_download_count": 101
+}
+
+PHP with BOM:
+app/admin_posts_crud_20250926/web/admin/_data.php
+app/admin_posts_crud_20250926/web/admin/posts.php
+app/admin_posts_crud_20250926/web/admin/posts_delete.php
+app/admin_posts_crud_20250926/web/admin/posts_edit.php
+app/admin_seed_20250926/_auth.php
+app/admin_seed_20250926/seed_users.php
+app/admin_seed_20250926/verify_pw.php
+app/web_booktalk_backup_20250928_182155/admin/admin-header.php
+app/web_booktalk_backup_20250928_182155/admin/agent-header.php
+app/web_booktalk_backup_20250928_182155/admin/register.php
+app/web_booktalk_backup_20250928_182155/apis/books/user_books.php
+
+Forced download patterns in PHP:
+_tmp_extract/booktalk/booktalk-develop/www/includes/lib/download-community-attachment.php
+_tmp_extract/booktalk/booktalk-develop/www/includes/lib/download-epub-file.php
+_tmp_extract/booktalk/booktalk-develop/www/includes/lib/download-post-attachment.php
+_tmp_extract/booktalk/booktalk-develop/www/includes/lib/download-qnas-attachment.php
+_tmp_extract/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/admin/users/download_user.php
+_tmp_extract/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/includes/lib/download-community-attachment.php
+_tmp_extract/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/includes/lib/download-epub-file.php
+_tmp_extract/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/includes/lib/download-post-attachment.php
+_tmp_extract/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/includes/lib/download-qnas-attachment.php
+_tmp_extract/HerosComics_Admin-master/admin/books/ajax/book-action-download.php
+_tmp_extract/HerosComics_Admin-master/admin/users/download_user.php
+_tmp_extract/HerosComics_Admin-master/includes/lib/download-community-attachment.php
+_tmp_extract/HerosComics_Admin-master/includes/lib/download-epub-file.php
+_tmp_extract/HerosComics_Admin-master/includes/lib/download-post-attachment.php
+_tmp_extract/HerosComics_Admin-master/includes/lib/download-qnas-attachment.php
+app/admin/admin/books/ajax/book-action-download.php
+app/admin/admin/users/download_user.php
+app/admin/booktalk-develop/www/includes/lib/download-community-attachment.php
+app/admin/booktalk-develop/www/includes/lib/download-epub-file.php
+app/admin/booktalk-develop/www/includes/lib/download-post-attachment.php
+app/admin/booktalk-develop/www/includes/lib/download-qnas-attachment.php
+app/admin/HerosComics_Admin-master/admin/books/ajax/book-action-download.php
+app/admin/HerosComics_Admin-master/admin/users/download_user.php
+app/admin/HerosComics_Admin-master/includes/lib/download-community-attachment.php
+app/admin/HerosComics_Admin-master/includes/lib/download-epub-file.php
+app/admin/HerosComics_Admin-master/includes/lib/download-post-attachment.php
+app/admin/HerosComics_Admin-master/includes/lib/download-qnas-attachment.php
+app/admin/includes/lib/download-community-attachment.php
+app/admin/includes/lib/download-epub-file.php
+app/admin/includes/lib/download-post-attachment.php
+app/admin/includes/lib/download-qnas-attachment.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/AttachmentAcceptanceTest.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/EmbeddedFileAcceptanceTest.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/SimpleMessageAcceptanceTest.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug35Test.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug38Test.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Signers/SMimeSignerTest.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/admin/admin/books/ajax/book-action-download.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/admin/admin/users/download_user.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/admin/HerosComics_Admin-master/admin/books/ajax/book-action-download.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/admin/HerosComics_Admin-master/admin/users/download_user.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/books/ajax/book-action-download.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/users/download_user.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/includes/lib/download-community-attachment.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/includes/lib/download-epub-file.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/includes/lib/download-post-attachment.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/includes/lib/download-qnas-attachment.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/admin/HerosComics_Admin-master/includes/lib/download-community-attachment.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/admin/HerosComics_Admin-master/includes/lib/download-epub-file.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/admin/HerosComics_Admin-master/includes/lib/download-post-attachment.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/admin/HerosComics_Admin-master/includes/lib/download-qnas-attachment.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/admin/includes/lib/download-community-attachment.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/admin/includes/lib/download-epub-file.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/admin/includes/lib/download-post-attachment.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/admin/includes/lib/download-qnas-attachment.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/admin/users/download_user.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/includes/lib/download-community-attachment.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/includes/lib/download-epub-file.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/includes/lib/download-post-attachment.php
+app/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web/includes/lib/download-qnas-attachment.php
+app/HerosComics/web/admin/admin/books/ajax/book-action-download.php
+app/HerosComics/web/admin/admin/users/download_user.php
+app/HerosComics/web/admin/HerosComics_Admin-master/admin/books/ajax/book-action-download.php
+app/HerosComics/web/admin/HerosComics_Admin-master/admin/users/download_user.php
+app/HerosComics/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/books/ajax/book-action-download.php
+app/HerosComics/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/users/download_user.php
+app/HerosComics/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/includes/lib/download-community-attachment.php
+app/HerosComics/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/includes/lib/download-epub-file.php
+app/HerosComics/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/includes/lib/download-post-attachment.php
+app/HerosComics/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/includes/lib/download-qnas-attachment.php
+app/HerosComics/web/admin/HerosComics_Admin-master/includes/lib/download-community-attachment.php
+app/HerosComics/web/admin/HerosComics_Admin-master/includes/lib/download-epub-file.php
+app/HerosComics/web/admin/HerosComics_Admin-master/includes/lib/download-post-attachment.php
+app/HerosComics/web/admin/HerosComics_Admin-master/includes/lib/download-qnas-attachment.php
+app/HerosComics/web/admin/includes/lib/download-community-attachment.php
+app/HerosComics/web/admin/includes/lib/download-epub-file.php
+app/HerosComics/web/admin/includes/lib/download-post-attachment.php
+app/HerosComics/web/admin/includes/lib/download-qnas-attachment.php
+app/web/admin/admin/books/ajax/book-action-download.php
+app/web/admin/admin/users/download_user.php
+app/web/admin/HerosComics_Admin-master/admin/books/ajax/book-action-download.php
+app/web/admin/HerosComics_Admin-master/admin/users/download_user.php
+app/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/books/ajax/book-action-download.php
+app/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/users/download_user.php
+app/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/includes/lib/download-community-attachment.php
+app/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/includes/lib/download-epub-file.php
+app/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/includes/lib/download-post-attachment.php
+app/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/includes/lib/download-qnas-attachment.php
+app/web/admin/HerosComics_Admin-master/includes/lib/download-community-attachment.php
+app/web/admin/HerosComics_Admin-master/includes/lib/download-epub-file.php
+app/web/admin/HerosComics_Admin-master/includes/lib/download-post-attachment.php
+app/web/admin/HerosComics_Admin-master/includes/lib/download-qnas-attachment.php
+app/web/admin/includes/lib/download-community-attachment.php
+app/web/admin/includes/lib/download-epub-file.php
+app/web/admin/includes/lib/download-post-attachment.php
+app/web/admin/includes/lib/download-qnas-attachment.php
+app/web_booktalk_backup_20250928_182155/admin/users/download_user.php
+app/web_booktalk_backup_20250928_182155/includes/lib/download-community-attachment.php
+app/web_booktalk_backup_20250928_182155/includes/lib/download-epub-file.php
+app/web_booktalk_backup_20250928_182155/includes/lib/download-post-attachment.php
+app/web_booktalk_backup_20250928_182155/includes/lib/download-qnas-attachment.php
+
+NGINX previews:
+
+== docker/nginx-admin.conf ==
+# Put this inside your existing 'server { ... }' block for port 80.
+# Variant A: admin entry is at /var/www/html/admin/index.php
+location /admin/ {
+    root /var/www/html;
+    index index.php index.html;
+    try_files $uri $uri/ /admin/index.php?$args;
+}
+
+location ~ ^/admin/.*\.php$ {
+    root /var/www/html;
+    include fastcgi_params;
+    fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+    fastcgi_pass php:9000;  # php-fpm service name
+}
+
+# ---
+# Variant B (commented): if your entry is at /var/www/html/admin/public/index.php
+# Uncomment if needed and remove Variant A above.
+#
+# location /admin/ {
+#     alias /var/www/html/admin/public/;
+#     index index.php index.html;
+#     try_files $uri $uri/ /index.php?$args;
+# }
+#
+# location ~ ^/admin/.*\.php$ {
+#     include fastcgi_params;
+#     fastcgi_param SCRIPT_FILENAME /var/www/html/admin/public$fastcgi_script_name;
+#     fastcgi_pass php:9000;
+# }
+
+== docker/nginx/conf.d/default-public.conf ==
+server {
+    listen 80;
+    server_name _;
+    root /var/www/html;
+    index index.php index.html;
+
+    location /admin/ {
+        alias /var/www/html/admin/public/;
+        index index.php index.html;
+        try_files $uri $uri/ /index.php?$args;
+    }
+
+    location ~ ^/admin/(.+\.php)$ {
+        include /etc/nginx/fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME /var/www/html/admin/public/$1;
+        fastcgi_pass php:9000;
+    }
+
+    location = /admin/_health.php {
+        allow 127.0.0.1;
+        deny all;
+        include /etc/nginx/fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        fastcgi_pass php:9000;
+    }
+}
+
+== docker/nginx/conf.d/default.conf ==
+server {
+  listen 80;
+  server_name _;
+  root /var/www/html;
+  index index.php index.html;
+
+  # 핑(부팅 확인)
+  location = /ping { return 200 "pong\n"; }
+
+  # /admin 라우팅
+  location /admin/ { try_files $uri $uri/ /admin/index.php?$args; }
+
+  # PHP 처리
+  location ~ \.php$ {
+    include /etc/nginx/fastcgi_params;
+    fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+    fastcgi_pass php:9000;
+  }
+}
+
+== docker/nginx/default.app.conf ==
+server {
+    listen 80;
+    listen [::]:80;
+    server_name _;
+    root /var/www/html;
+    index index.php index.html;
+
+    # Health check
+    location = /health {
+        return 200 "OK\n";
+        add_header Content-Type text/plain;
+    }
+
+    # Site root
+    location / { try_files $uri $uri/ /index.php?$args; }
+
+    # Admin: fallback to real source under /web/admin (no alias)
+    location /admin/ { try_files $uri $uri/ /web/admin/index.php?$args; }
+
+    # PHP handling
+    location ~ \.php$ {
+        include fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        fastcgi_pass php:9000;
+        fastcgi_index index.php;
+    }
+
+    charset utf-8;
+}
+
+== docker/nginx/default.conf ==
+server {
+    listen 80;
+    listen [::]:80;
+    server_name _;
+    root /var/www/html/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web;
+    index index.php index.html;
+
+    # Health
+    location = /health { return 200 "OK\n"; add_header Content-Type text/plain; }
+
+    # Yii pretty URLs
+    location / { try_files $uri $uri/ /index.php?$args; }
+
+    # Admin 보호 (BasicAuth)
+    location /admin/ {
+        auth_basic "Restricted";
+        auth_basic_user_file /var/www/html/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/.htpasswd;
+        try_files $uri $uri/ /admin/index.php?$args;
+    }
+
+    # Admin 내 PHP는 FPM
+    location ~ ^/admin/.*\.php$ {
+        include fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        fastcgi_pass php:9000;
+        fastcgi_index index.php;
+    }
+
+    # 일반 PHP
+    location ~ \.php$ {
+        include fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        fastcgi_pass php:9000;
+        fastcgi_index index.php;
+    }
+
+    charset utf-8;
+}
+
+== docker/nginx/default.heros.v2.conf ==
+server {
+    listen 80;
+    listen [::]:80;
+    server_name _;
+    root /var/www/html/HerosComics/web;
+    index index.php index.html;
+
+    # Health
+    location = /health { return 200 "OK\n"; add_header Content-Type text/plain; }
+
+    # Yii pretty URLs
+    location / { try_files $uri $uri/ /index.php?$args; }
+
+    # Admin: route everything under /admin (static & index)
+    location ^~ /admin/ {
+        try_files $uri $uri/ /admin/index.php?$args;
+    }
+    # Admin PHP must go to FPM (override ^~)
+    location ~ ^/admin/.*\.php$ {
+        include fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        fastcgi_pass php:9000;
+        fastcgi_index index.php;
+    }
+
+    # General PHP
+    location ~ \.php$ {
+        include fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        fastcgi_pass php:9000;
+        fastcgi_index index.php;
+    }
+
+    charset utf-8;
+}
+
+== ops/nginx/default.conf ==
+server {
+    listen 80;
+    server_name localhost;
+    charset utf-8;
+
+    # Web root points to the 'web' folder under /var/www/html
+    root /var/www/html/web;
+    index index.php index.html index.htm;
+
+    # Serve static files directly; fallback to index.php for routes
+    location / {
+        try_files $uri $uri/ /index.php?$args;
+    }
+
+    # PHP handling
+    location ~ \.php$ {
+        include /etc/nginx/fastcgi_params;
+        fastcgi_pass php:9000;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        fastcgi_index index.php;
+    }
+
+    # Deny access to hidden files like .git, .env
+    location ~ /\.(?!well-known) {
+        deny all;
+    }
+}
+
+== ops/nginx/default_ssl.conf ==
+server {
+  listen 443 ssl http2;
+  server_name localhost;
+  root /var/www/html/web;
+  index index.php index.html;
+
+  ssl_certificate     /etc/nginx/certs/fullchain.pem;
+  ssl_certificate_key /etc/nginx/certs/privkey.pem;
+
+  location / { try_files $uri $uri/ /index.php?$args; }
+  location ~ \.php$ {
+    include fastcgi_params;
+    fastcgi_pass php:9000;
+    fastcgi_index index.php;
+    fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+  }
+  gzip on;
+  gzip_types text/css application/javascript text/plain application/json;
+}

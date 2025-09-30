@@ -1,36 +1,33 @@
-<!-- /comic.php -->
-<?php $slug = $_GET['slug'] ?? ''; ?>
-<!doctype html><meta charset="utf-8">
-<title>작품 상세</title>
-<style>
-    body{font:16px/1.5 system-ui,apple sd gothic neo,segoe ui,arial,sans-serif;margin:24px}
-    a{color:#0ea5e9;text-decoration:none} a:hover{text-decoration:underline}
-    .muted{color:#6b7280}
-    .card{border:1px solid #e5e7eb;border-radius:12px;padding:16px;margin:12px 0}
-</style>
-<nav><a href="/index.php">← 목록</a></nav>
-<h1 id="title">불러오는 중…</h1>
-<p class="muted" id="meta"></p>
-<p id="synopsis"></p>
-<h2>챕터</h2>
-<div id="chapters">불러오는 중…</div>
-<script>
-    (async () => {
-        const slug = <?php echo json_encode($slug, JSON_UNESCAPED_UNICODE); ?>;
-        if(!slug){ document.getElementById('title').textContent='잘못된 접근'; throw new Error('no slug'); }
-        const r = await fetch('/api/comics/show.php?slug='+encodeURIComponent(slug));
-        const j = await r.json();
-        if(!j.ok){ document.getElementById('title').textContent='없음'; return; }
-        const c = j.comic;
-        document.getElementById('title').textContent = c.title;
-        document.getElementById('meta').textContent = `slug=${c.slug} · author=${c.author??'-'}`;
-        document.getElementById('synopsis').textContent = c.synopsis ?? '';
-        const el = document.getElementById('chapters');
-        el.innerHTML = j.chapters.length
-            ? j.chapters.map(ch => `<div class="card">
-         <b>${ch.number}화</b> ${ch.title??''}
-         <div><a href="/reader.php?chapter_id=${ch.id}">읽기</a></div>
-       </div>`).join('')
-            : '<div class="muted">등록된 챕터가 없습니다.</div>';
-    })();
-</script>
+<?php
+declare(strict_types=1);
+header('Content-Type: text/html; charset=UTF-8');
+
+$host = getenv('DB_HOST') ?: 'mariadb';
+$db   = getenv('DB_NAME') ?: 'herocomics';
+$user = getenv('DB_USER') ?: 'hero';
+$pass = getenv('DB_PASS') ?: '';
+$mysqli = @mysqli_connect($host, $user, $pass, $db);
+if ($mysqli) { $mysqli->set_charset('utf8mb4'); }
+
+$slug = $_GET['slug'] ?? '';
+$id = 0;
+if (preg_match('/^book-(\d+)$/', $slug, $m)) { $id = (int)$m[1]; }
+
+echo "<!doctype html><meta charset='utf-8'><title>히어로코믹스</title><h1>작품</h1>";
+if ($id && $mysqli) {
+    $stmt = $mysqli->prepare("SELECT id,isbn,title,author,unit_price FROM books WHERE id=?");
+    $stmt->bind_param('i', $id);
+    $stmt->execute();
+    $r = $stmt->get_result()->fetch_assoc();
+    if ($r) {
+        echo "<h2>".htmlspecialchars($r['title'])."</h2>";
+        echo "<div>작가: ".htmlspecialchars($r['author'])."</div>";
+        echo "<div>가격: ".(int)$r['unit_price']."</div>";
+        echo "<div>ISBN: ".htmlspecialchars($r['isbn'])."</div>";
+        echo "<p><a href='/'>← 목록</a></p>";
+    } else {
+        echo "작품을 찾을 수 없음 <a href='/'>← 목록</a>";
+    }
+} else {
+    echo "잘못된 접근 <a href='/'>← 목록</a>";
+}

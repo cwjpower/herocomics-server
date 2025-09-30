@@ -1,0 +1,19 @@
+<?php
+declare(strict_types=1);
+
+/**
+ * 서버 환경에 맞게 반드시 수정할 것!
+ * 이 파일은 /var/www/html/wps-vars.php 위치에 둔다.
+ */
+
+// 기존에 정의되어 있으면 다시 정의하지 않음
+if (!defined('ABS_PATH')) {
+    define('ABS_PATH', __DIR__);
+}
+
+if (!defined('WPS_ENV')) define('WPS_ENV', 'dev');
+
+if (!defined('DB_HOST')) define('DB_HOST', 'mariadb');
+if (!defined('DB_USER')) define('DB_USER', 'hero');
+if (!defined('DB_PASS')) define('DB_PASS', 'hero_pass');
+if (!defined('DB_NAME')) define('DB_NAME', 'herocomics');

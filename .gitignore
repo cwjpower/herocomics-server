@@ -1,96 +1,22 @@
-﻿# secrets
-/docker/.env
-**/*.env
-
-# DB 데이터/백업/로그
-/db/
-backup/
-/docker/nginx/logs/
-
-# 업로드/이미지(용량 큼) — 필요 시 샘플만 커밋
-/app/images/
-/app/uploads/
-/app/web/images/
-/app/web/uploads/
-/app/web/admin/uploads/
-
-# 임시/백업/툴
+# OS / IDE
+.DS_Store
+Thumbs.db
 *.log
 *.tmp
-*.bak
-*.bak.*
-*~
-/app/web/phpinfo.php
-/app/web/*_debug*.php
-/app/web/admin_*fix*/
-/app/web/admin_hotfix_20250926/
-/app/web/admin_shell_20250926/
 
-# IDE/OS
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# 기타
-node_modules/
-vendor/
-
-# extra safety
-*.bak.
-
-db/
-db_backup_*/
-*.sql
-*.ibd
-ib_logfile*
-# OS/IDE
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-
-# Secrets & local env
-.env
-*.env
-app/**/secrets*/
-app/**/config.local.php
-
-# Vendor / build / cache
+# Composer / Node (혹시 쓸 경우)
 vendor/
 node_modules/
-dist/
-build/
-tmp/
-*.log
 
-# DB dumps
-*.sql
-*.sql.gz
-# OS/IDE
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
+# 업로드/생성물(커밋 X)
+web/content/series/
+web/admin/uploads/
 
-# Secrets & local env
-.env
-*.env
-app/**/secrets*/
-app/**/config.local.php
+# 임시/진단 파일
+web/admin/_diag.php
+web/admin/_probe.php
+web/ping.txt
 
-# Vendor / build / cache
-vendor/
-node_modules/
-dist/
-build/
-tmp/
-*.log
-
-# DB dumps
-*.sql
-*.sql.gz
-
-!_tmp_extract/**
-
-!_tmp_extract/**
+# 압축/백업
+*.zip
+*.bak_*

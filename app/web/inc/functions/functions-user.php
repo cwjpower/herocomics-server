@@ -1,1 +1,0 @@
-<?php /* user ui stub */ ?>

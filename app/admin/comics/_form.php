@@ -1,0 +1,16 @@
+<?php
+declare(strict_types=1);
+$csrf = htmlspecialchars(csrf_token(), ENT_QUOTES, 'UTF-8');
+$title = htmlspecialchars($item['title'] ?? '', ENT_QUOTES, 'UTF-8');
+$author = htmlspecialchars($item['author'] ?? '', ENT_QUOTES, 'UTF-8');
+$status = (int)($item['status'] ?? 0);
+$coverPath = $item['cover_path'] ?? null;
+$coverUrl = $coverPath ? '/'+$coverPath : null;
+?>
+<input type="hidden" name="csrf" value="<?=$csrf?>">
+<label>제목 <input name="title" required maxlength="200" value="<?=$title?>"></label>
+<label>작가 <input name="author" required maxlength="120" value="<?=$author?>"></label>
+<label><input type="checkbox" name="status" value="1" <?=$status===1?"checked":""?>> 공개</label>
+<label>표지 이미지(선택) <input type="file" name="cover" accept="image/*"></label>
+<?php if($coverUrl): ?><p>현재 표지: <img src="<?=$coverUrl?>" alt="cover" style="height:80px"></p><?php endif; ?>
+<button type="submit">저장</button>

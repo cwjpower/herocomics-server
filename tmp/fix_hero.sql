@@ -1,0 +1,4 @@
+CREATE USER IF NOT EXISTS 'hero'@'%' IDENTIFIED BY 'change_me';
+ALTER USER 'hero'@'%' IDENTIFIED BY 'change_me';
+GRANT ALL ON \$DBNAME\.* TO 'hero'@'%';
+FLUSH PRIVILEGES;

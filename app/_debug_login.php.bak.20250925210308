@@ -1,0 +1,10 @@
+<?php
+declare(strict_types=1);
+header('Content-Type: text/plain; charset=utf-8');
+
+echo "---- DEBUG ----\n";
+echo "WPS_ENV=" . (defined('WPS_ENV') ? WPS_ENV : 'undefined') . "\n";
+echo "ABS_PATH=" . (defined('ABS_PATH') ? ABS_PATH : 'undefined') . "\n";
+echo "DB_HOST=" . (defined('DB_HOST') ? DB_HOST : 'undefined') . "\n";
+echo "DB_USER=" . (defined('DB_USER') ? DB_USER : 'undefined') . "\n";
+echo "DB_NAME=" . (defined('DB_NAME') ? DB_NAME : 'undefined') . "\n";

@@ -1,0 +1,12 @@
+<?php
+declare(strict_types=1);
+
+/**
+ * SAMPLE ONLY — compare with your current /var/www/html/wps-config.php
+ * Guards constant re-defines and avoids any leading output.
+ */
+if (!defined('ABS_PATH')) define('ABS_PATH', __DIR__ . '/');
+if (!defined('WEB_PATH')) define('WEB_PATH', ABS_PATH . 'web/');
+
+require_once __DIR__ . '/wps-vars.php';
+require_once WEB_PATH . 'bootstrap.php'; // adjust if your bootstrap lives elsewhere

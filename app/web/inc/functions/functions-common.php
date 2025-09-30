@@ -1,1 +1,0 @@
-<?php /* admin/common stub */ ?>

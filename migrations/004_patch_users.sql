@@ -1,0 +1,9 @@
+﻿-- 004_patch_users.sql : 기존 users 테이블에 누락 컬럼 보강
+ALTER TABLE users
+  ADD COLUMN IF NOT EXISTS display_name VARCHAR(100) NULL AFTER password_hash;
+ALTER TABLE users
+  ADD COLUMN IF NOT EXISTS status TINYINT NOT NULL DEFAULT 1 AFTER display_name;
+ALTER TABLE users
+  ADD COLUMN IF NOT EXISTS updated_at TIMESTAMP NOT NULL
+    DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+    AFTER created_at;
