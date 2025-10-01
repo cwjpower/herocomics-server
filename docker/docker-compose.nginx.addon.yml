@@ -4,8 +4,8 @@ services:
       - C:\herocomics\server\app:/var/www/html
 
   nginx:
-    ports:
-      - "8081:80"
-    volumes:
-      - C:\herocomics\server\app:/var/www/html:ro
-      - C:\herocomics\server\docker\nginx\conf.d\default.conf:/etc/nginx/conf.d/default.conf:ro
+      ports:
+        - "8081:80"
+      volumes:
+        - "C:\\herocomics\\server\\app:/var/www/html:ro"
+        - "C:\\herocomics\\server\\docker\\nginx\\conf.d:/etc/nginx/conf.d:ro"

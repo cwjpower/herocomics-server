@@ -1,4 +1,4 @@
-﻿
+
 services:
   nginx:
     image: nginx:1.27-alpine
@@ -6,8 +6,12 @@ services:
       - "8081:80"
     volumes:
       - ../app:/var/www/html
-      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
-      - C:\herocomics\server\app\admin:/var/www/html/admin
+  # removed: default.conf bind
+  # removed: app\admin bind
+      - C:\herocomics\server\app:/var/www/html
+      - C:\herocomics\server\docker\nginx\conf.d:/etc/nginx/conf.d
+
+
     depends_on:
       - php
 
@@ -19,6 +23,8 @@ services:
       - "9000"
     volumes:
       - ../app:/var/www/html
+      - C:\herocomics\server\app:/var/www/html
+      - C:\herocomics\server\docker\php82\uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
 
   mariadb:
     image: mariadb:10.11
