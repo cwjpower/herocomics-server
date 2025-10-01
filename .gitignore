@@ -46,3 +46,9 @@ node_modules/
 *_bak*
 _backup_*/
 .git-report/
+# local backups & reports
+*.bak
+*.bak_
+*_bak*
+_backup_*/
+.git-report/
