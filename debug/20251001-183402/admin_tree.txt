@@ -1,0 +1,500 @@
+/var/www/html/web/admin:
+total 268
+drwxrwxrwx    1 www-data www-data      4096 Oct  1 09:28 .
+drwxrwxrwx    1 www-data www-data      4096 Oct  1 03:34 ..
+-rwxrwxrwx    1 www-data www-data       587 Sep 25 03:57 .gitignore
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 11:20 .idea
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 11:17 HerosComics_Admin-master
+-rwxrwxrwx    1 www-data www-data        30 Sep 25 03:57 README.md
+-rwxrwxrwx    1 root     root           250 Oct  1 08:59 _banner_paths.php
+-rw-r--r--    1 www-data www-data        26 Sep 28 20:09 _diag.php
+-rwxrwxrwx    1 www-data www-data      1086 Oct  1 04:12 _fixbom.php
+-rwxrwxrwx    1 root     root          3172 Oct  1 08:00 _login_compat.php
+-rwxrwxrwx    1 root     root          1160 Oct  1 09:01 _readonly_sql_guard.php
+-rwxrwxrwx    1 root     root           188 Oct  1 05:50 _sesscheck.php
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 11:20 admin
+-rw-r--r--    1 www-data www-data       651 Sep 30 07:37 admin_user_delete.php
+-rw-r--r--    1 www-data www-data      1506 Sep 30 07:37 admin_user_save.php
+-rw-r--r--    1 www-data www-data      5918 Oct  1 09:21 admin_users.php
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 11:20 apis
+-rwxrwxrwx    1 root     root          3397 Oct  1 09:28 auth.php
+-rwxr-xr-x    1 www-data www-data       661 Sep 30 05:48 auth.php.bak_20250930054844
+-rwxrwxrwx    1 root     root          1349 Oct  1 05:50 auth.php.bak_20251001145602
+-rwxrwxrwx    1 root     root          1483 Oct  1 05:56 auth.php.bak_20251001145611
+-rwxrwxrwx    1 root     root          1483 Oct  1 06:33 auth.php.bak_20251001162436
+-rwxrwxrwx    1 root     root          1485 Oct  1 07:24 auth.php.bak_20251001162952
+-rwxrwxrwx    1 root     root         49935 Oct  1 07:29 auth.php.bak_20251001163926
+-rwxrwxrwx    1 root     root         49935 Oct  1 07:39 auth.php.bak_20251001164421
+-rw-r--r--    1 www-data www-data       501 Sep 30 07:59 banner_delete.php
+-rw-r--r--    1 www-data www-data      1287 Sep 30 07:59 banner_edit.php
+-rw-r--r--    1 www-data www-data      2805 Sep 30 07:59 banner_save.php
+-rwxrwxrwx    1 root     root          1552 Oct  1 09:21 banner_upload_test.php
+-rwxrwxrwx    1 root     root          2411 Oct  1 06:33 banners.php
+-rwxrwxrwx    1 root     root           865 Oct  1 05:50 common.php
+-rwxrwxrwx    1 www-data www-data       262 Sep 30 07:14 dashboard.php
+-rwxrwxrwx    1 root     root          1708 Oct  1 06:33 db_browser.php
+-rwxr-xr-x    1 root     root          1708 Oct  1 09:01 db_browser.php.bak_20251001090141
+-rwxrwxrwx    1 www-data www-data       733 Sep 28 20:47 db_check.php
+-rwxrwxrwx    1 root     root           592 Sep 30 08:16 episode_delete.php
+-rwxrwxrwx    1 root     root          1525 Oct  1 06:33 episode_edit.php
+-rwxrwxrwx    1 root     root          4158 Oct  1 06:33 episode_save.php
+-rw-r--r--    1 www-data www-data      2820 Sep 30 08:54 episode_save.php.bak_20250930085423
+-rwxrwxrwx    1 root     root          1047 Oct  1 06:33 episode_view.php
+-rwxrwxrwx    1 root     root          2641 Oct  1 06:33 episodes.php
+-rw-r--r--    1 www-data www-data      1010 Sep 30 07:14 export_csv.php
+-rwxrwxrwx    1 www-data www-data        53 Sep 25 03:57 googlec1fe97ee9edfa8a8.html
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 11:20 includes
+-rwxrwxrwx    1 www-data www-data       532 Sep 25 03:57 index.html
+-rwxrwxrwx    1 www-data www-data       602 Sep 28 11:13 index.php
+-rwxrwxrwx    1 www-data www-data        40 Sep 25 03:57 index.php.back
+-rwxrwxrwx    1 www-data www-data       344 Sep 28 01:24 index_real.php
+-rwxrwxrwx    1 root     root          1592 Oct  1 08:33 login.php
+-rwxrwxrwx    1 www-data www-data        74 Sep 28 20:48 logout.php
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 11:20 mobile
+-rwxrwxrwx    1 root     root          1087 Oct  1 06:33 nav.php
+-rwxrwxrwx    1 www-data www-data        67 Sep 25 03:57 naver2b4cea3e29c230c9aff8435b17625055.html
+-rw-r--r--    1 www-data www-data      2276 Sep 30 08:11 series.php
+-rw-r--r--    1 www-data www-data       641 Sep 30 08:11 series_delete.php
+-rw-r--r--    1 www-data www-data      1270 Sep 30 08:11 series_edit.php
+-rw-r--r--    1 www-data www-data      2548 Sep 30 08:11 series_save.php
+drwxrwxrwx    1 www-data www-data      4096 Oct  1 09:28 uploads
+-rwxrwxrwx    1 www-data www-data      1381 Sep 25 03:57 wps-config.php
+-rwxrwxrwx    1 www-data www-data       456 Sep 25 03:57 wps-settings.php
+-rwxrwxrwx    1 www-data www-data      6160 Sep 25 03:57 wps-vars.php
+
+/var/www/html/web/admin/.idea:
+total 4
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 11:20 .
+drwxrwxrwx    1 www-data www-data      4096 Oct  1 09:28 ..
+-rwxrwxrwx    1 www-data www-data        17 Sep 25 03:57 .name
+-rwxrwxrwx    1 www-data www-data       281 Sep 25 03:57 HerosComics_Admin.iml
+-rwxrwxrwx    1 www-data www-data       626 Sep 25 03:57 deployment.xml
+-rwxrwxrwx    1 www-data www-data       599 Sep 25 03:57 misc.xml
+-rwxrwxrwx    1 www-data www-data       286 Sep 25 03:57 modules.xml
+-rwxrwxrwx    1 www-data www-data       180 Sep 25 03:57 vcs.xml
+
+/var/www/html/web/admin/HerosComics_Admin-master:
+total 20
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 11:17 .
+drwxrwxrwx    1 www-data www-data      4096 Oct  1 09:28 ..
+-rwxrwxrwx    1 www-data www-data       587 Sep 25 03:57 .gitignore
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 11:17 .idea
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 HerosComics_Admin-master
+-rwxrwxrwx    1 www-data www-data        30 Sep 25 03:57 README.md
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 11:17 admin
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 11:17 apis
+-rwxrwxrwx    1 www-data www-data        53 Sep 25 03:57 googlec1fe97ee9edfa8a8.html
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 11:17 includes
+-rwxrwxrwx    1 www-data www-data       532 Sep 25 03:57 index.html
+-rwxrwxrwx    1 www-data www-data        40 Sep 25 03:57 index.php.back
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 11:17 mobile
+-rwxrwxrwx    1 www-data www-data        67 Sep 25 03:57 naver2b4cea3e29c230c9aff8435b17625055.html
+-rwxrwxrwx    1 www-data www-data        42 Sep 26 00:48 phpinfo.php
+-rwxrwxrwx    1 www-data www-data      1381 Sep 25 03:57 wps-config.php
+-rwxrwxrwx    1 www-data www-data       456 Sep 25 03:57 wps-settings.php
+-rwxrwxrwx    1 www-data www-data      6160 Sep 25 03:57 wps-vars.php
+
+/var/www/html/web/admin/HerosComics_Admin-master/.idea:
+total 4
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 11:17 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 11:17 ..
+-rwxrwxrwx    1 www-data www-data        17 Sep 25 03:57 .name
+-rwxrwxrwx    1 www-data www-data       281 Sep 25 03:57 HerosComics_Admin.iml
+-rwxrwxrwx    1 www-data www-data       626 Sep 25 03:57 deployment.xml
+-rwxrwxrwx    1 www-data www-data       599 Sep 25 03:57 misc.xml
+-rwxrwxrwx    1 www-data www-data       286 Sep 25 03:57 modules.xml
+-rwxrwxrwx    1 www-data www-data       180 Sep 25 03:57 vcs.xml
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master:
+total 20
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 11:17 ..
+-rwxrwxrwx    1 www-data www-data       587 Sep 25 03:57 .gitignore
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .idea
+-rwxrwxrwx    1 www-data www-data        30 Sep 25 03:57 README.md
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 admin
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 apis
+-rwxrwxrwx    1 www-data www-data        53 Sep 25 03:57 googlec1fe97ee9edfa8a8.html
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 includes
+-rwxrwxrwx    1 www-data www-data       532 Sep 25 03:57 index.html
+-rwxrwxrwx    1 www-data www-data        40 Sep 25 03:57 index.php.back
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 mobile
+-rwxrwxrwx    1 www-data www-data        67 Sep 25 03:57 naver2b4cea3e29c230c9aff8435b17625055.html
+-rwxrwxrwx    1 www-data www-data        42 Sep 26 00:48 phpinfo.php
+-rwxrwxrwx    1 www-data www-data      1381 Sep 25 03:57 wps-config.php
+-rwxrwxrwx    1 www-data www-data       456 Sep 25 03:57 wps-settings.php
+-rwxrwxrwx    1 www-data www-data      6160 Sep 25 03:57 wps-vars.php
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/.idea:
+total 4
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+-rwxrwxrwx    1 www-data www-data        17 Sep 25 03:57 .name
+-rwxrwxrwx    1 www-data www-data       281 Sep 25 03:57 HerosComics_Admin.iml
+-rwxrwxrwx    1 www-data www-data       626 Sep 25 03:57 deployment.xml
+-rwxrwxrwx    1 www-data www-data       599 Sep 25 03:57 misc.xml
+-rwxrwxrwx    1 www-data www-data       286 Sep 25 03:57 modules.xml
+-rwxrwxrwx    1 www-data www-data       180 Sep 25 03:57 vcs.xml
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin:
+total 200
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+-rwxrwxrwx    1 www-data www-data    101591 Sep 25 03:57 _sample01.html
+-rwxrwxrwx    1 www-data www-data      5299 Sep 25 03:57 _sample02.html
+-rwxrwxrwx    1 www-data www-data     13286 Sep 25 03:57 _sample03.html
+-rwxrwxrwx    1 www-data www-data     18555 Sep 25 03:57 _sample031.html
+-rwxrwxrwx    1 www-data www-data      3013 Sep 25 03:57 admin-footer.php
+-rwxrwxrwx    1 www-data www-data      4574 Sep 25 03:57 admin-header.php
+-rwxrwxrwx    1 www-data www-data     10707 Sep 25 03:57 admin.php
+-rwxrwxrwx    1 www-data www-data      3570 Sep 25 03:57 agent-header.php
+-rwxrwxrwx    1 www-data www-data      8836 Sep 25 03:57 agent.php
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 books
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 category
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 community
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 config
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 css
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 customer
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 fonts
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 images
+-rwxrwxrwx    1 www-data www-data       377 Sep 25 03:57 index.php
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 js
+-rwxrwxrwx    1 www-data www-data      6264 Sep 25 03:57 login.php
+-rwxrwxrwx    1 www-data www-data       169 Sep 25 03:57 logout.php
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 pages
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 promotion
+-rwxrwxrwx    1 www-data www-data      3954 Sep 25 03:57 register.php
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 salestool
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 settle
+-rwxrwxrwx    1 www-data www-data       596 Sep 25 03:57 sidebar_profile.php
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 statistics
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 story
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 users
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/books:
+total 364
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ajax
+-rwxrwxrwx    1 www-data www-data     10506 Sep 25 03:57 book_action_map.php
+-rwxrwxrwx    1 www-data www-data      7089 Sep 25 03:57 book_action_map_back.php
+-rwxrwxrwx    1 www-data www-data     11265 Sep 25 03:57 book_detail.php
+-rwxrwxrwx    1 www-data www-data     28286 Sep 25 03:57 book_new.php
+-rwxrwxrwx    1 www-data www-data     23855 Sep 25 03:57 book_new_pkg.php
+-rwxrwxrwx    1 www-data www-data      5313 Sep 25 03:57 book_preview_list.php
+-rwxrwxrwx    1 www-data www-data      6544 Sep 25 03:57 book_preview_new.php
+-rwxrwxrwx    1 www-data www-data      8235 Sep 25 03:57 book_req_del.php
+-rwxrwxrwx    1 www-data www-data     37856 Sep 25 03:57 book_req_edit.php
+-rwxrwxrwx    1 www-data www-data      6550 Sep 25 03:57 book_req_edit_list.php
+-rwxrwxrwx    1 www-data www-data     13354 Sep 25 03:57 book_req_list.php
+-rwxrwxrwx    1 www-data www-data      6168 Sep 25 03:57 book_req_new_list.php
+-rwxrwxrwx    1 www-data www-data     10453 Sep 25 03:57 book_res_del.php
+-rwxrwxrwx    1 www-data www-data     15028 Sep 25 03:57 book_res_edit.php
+-rwxrwxrwx    1 www-data www-data     10542 Sep 25 03:57 book_res_new.php
+-rwxrwxrwx    1 www-data www-data      7661 Sep 25 03:57 book_trailer_edit.php
+-rwxrwxrwx    1 www-data www-data     10099 Sep 25 03:57 book_trailer_list.php
+-rwxrwxrwx    1 www-data www-data      6841 Sep 25 03:57 book_trailer_new.php
+-rwxrwxrwx    1 www-data www-data      6371 Sep 25 03:57 book_trailer_view.php
+-rwxrwxrwx    1 www-data www-data      2765 Sep 25 03:57 books-lnb.php
+-rwxrwxrwx    1 www-data www-data      8227 Sep 25 03:57 category.php
+-rwxrwxrwx    1 www-data www-data     21984 Sep 25 03:57 easy-mapper-1.2.0.js
+-rwxrwxrwx    1 www-data www-data      7541 Sep 25 03:57 easy-mapper.css
+-rwxrwxrwx    1 www-data www-data      7541 Sep 25 03:57 easy-mapper_bak.css
+-rwxrwxrwx    1 www-data www-data     13295 Sep 25 03:57 index.php
+-rwxrwxrwx    1 www-data www-data     31011 Sep 25 03:57 sampleImage.png
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/books/ajax:
+total 80
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+-rwxrwxrwx    1 www-data www-data       671 Sep 25 03:57 book-action-download.php
+-rwxrwxrwx    1 www-data www-data      3244 Sep 25 03:57 book-action-map.php
+-rwxrwxrwx    1 www-data www-data       766 Sep 25 03:57 book-isbn-check.php
+-rwxrwxrwx    1 www-data www-data      3276 Sep 25 03:57 book-new-pkg.php
+-rwxrwxrwx    1 www-data www-data      4526 Sep 25 03:57 book-new.php
+-rwxrwxrwx    1 www-data www-data       564 Sep 25 03:57 book-preview-del.php
+-rwxrwxrwx    1 www-data www-data       801 Sep 25 03:57 book-preview-save.php
+-rwxrwxrwx    1 www-data www-data       652 Sep 25 03:57 book-req-cancel.php
+-rwxrwxrwx    1 www-data www-data       769 Sep 25 03:57 book-req-del.php
+-rwxrwxrwx    1 www-data www-data      4192 Sep 25 03:57 book-req-edit.php
+-rwxrwxrwx    1 www-data www-data      3472 Sep 25 03:57 book-select-pop.php
+-rwxrwxrwx    1 www-data www-data      1019 Sep 25 03:57 book-trailer-delete.php
+-rwxrwxrwx    1 www-data www-data      1154 Sep 25 03:57 book-trailer-save.php
+-rwxrwxrwx    1 www-data www-data       905 Sep 25 03:57 get-child-category.php
+-rwxrwxrwx    1 www-data www-data      3164 Sep 25 03:57 get-more-req-books.php
+-rwxrwxrwx    1 www-data www-data      1031 Sep 25 03:57 response-for-book.php
+-rwxrwxrwx    1 www-data www-data       798 Sep 25 03:57 search-approved-book.php
+-rwxrwxrwx    1 www-data www-data       775 Sep 25 03:57 search-book.php
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/category:
+total 12
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ajax
+-rwxrwxrwx    1 www-data www-data       996 Sep 25 03:57 category-lnb.php
+-rwxrwxrwx    1 www-data www-data      8101 Sep 25 03:57 index.php
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/category/ajax:
+total 12
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+-rwxrwxrwx    1 www-data www-data       528 Sep 25 03:57 fancytree-node-delete.php
+-rwxrwxrwx    1 www-data www-data       967 Sep 25 03:57 fancytree-node-move.php
+-rwxrwxrwx    1 www-data www-data      2010 Sep 25 03:57 fancytree-node-save.php
+-rwxrwxrwx    1 www-data www-data       209 Sep 25 03:57 fancytree_node.php
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/community:
+total 72
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+-rwxrwxrwx    1 www-data www-data      7201 Sep 25 03:57 activity_view.php
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ajax
+-rwxrwxrwx    1 www-data www-data      1083 Sep 25 03:57 community-lnb.php
+-rwxrwxrwx    1 www-data www-data         6 Sep 25 03:57 freetalk.php
+-rwxrwxrwx    1 www-data www-data      7607 Sep 25 03:57 index.php
+-rwxrwxrwx    1 www-data www-data     11223 Sep 25 03:57 notice_list.php
+-rwxrwxrwx    1 www-data www-data      9982 Sep 25 03:57 notice_new.php
+-rwxrwxrwx    1 www-data www-data      4515 Sep 25 03:57 notice_view.php
+-rwxrwxrwx    1 www-data www-data     11404 Sep 25 03:57 post_list.php
+-rwxrwxrwx    1 www-data www-data      4860 Sep 25 03:57 post_new.php
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/community/ajax:
+total 20
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+-rwxrwxrwx    1 www-data www-data       731 Sep 25 03:57 activity-comment-delete.php
+-rwxrwxrwx    1 www-data www-data       715 Sep 25 03:57 activity-delete.php
+-rwxrwxrwx    1 www-data www-data      1509 Sep 25 03:57 activity-preview.php
+-rwxrwxrwx    1 www-data www-data       644 Sep 25 03:57 notice-delete.php
+-rwxrwxrwx    1 www-data www-data      1821 Sep 25 03:57 notice-new.php
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/config:
+total 4
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ajax
+-rwxrwxrwx    1 www-data www-data      3738 Sep 25 03:57 options-general.php
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/config/ajax:
+total 0
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+-rwxrwxrwx    1 www-data www-data       431 Sep 25 03:57 options-general.php
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/css:
+total 240
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+-rwxrwxrwx    1 www-data www-data     89933 Sep 25 03:57 AdminLTE.min.css
+-rwxrwxrwx    1 www-data www-data     33745 Sep 25 03:57 datepicker3.css
+-rwxrwxrwx    1 www-data www-data     29063 Sep 25 03:57 font-awesome.min.css
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 iCheck
+-rwxrwxrwx    1 www-data www-data     51284 Sep 25 03:57 ionicons.min.css
+-rwxrwxrwx    1 www-data www-data      3572 Sep 25 03:57 jquery.contextMenu.css
+-rwxrwxrwx    1 www-data www-data       854 Sep 25 03:57 ls-custom.css
+-rwxrwxrwx    1 www-data www-data       433 Sep 25 03:57 morris.css
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 skins
+-rwxrwxrwx    1 www-data www-data     20521 Sep 25 03:57 ui.fancytree.css
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/css/iCheck:
+total 0
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 flat
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 square
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/css/iCheck/flat:
+total 8
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+-rwxrwxrwx    1 www-data www-data      1428 Sep 25 03:57 blue.css
+-rwxrwxrwx    1 www-data www-data      1518 Sep 25 03:57 blue.png
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/css/iCheck/square:
+total 8
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+-rwxrwxrwx    1 www-data www-data      1611 Sep 25 03:57 blue.css
+-rwxrwxrwx    1 www-data www-data      2185 Sep 25 03:57 blue.png
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/css/skins:
+total 208
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+-rwxrwxrwx    1 www-data www-data     47539 Sep 25 03:57 _all-skins.css
+-rwxrwxrwx    1 www-data www-data     40757 Sep 25 03:57 _all-skins.min.css
+-rwxrwxrwx    1 www-data www-data      4812 Sep 25 03:57 skin-black-light.css
+-rwxrwxrwx    1 www-data www-data      4096 Sep 25 03:57 skin-black-light.min.css
+-rwxrwxrwx    1 www-data www-data      4037 Sep 25 03:57 skin-black.css
+-rwxrwxrwx    1 www-data www-data      3392 Sep 25 03:57 skin-black.min.css
+-rwxrwxrwx    1 www-data www-data      4510 Sep 25 03:57 skin-blue-light.css
+-rwxrwxrwx    1 www-data www-data      3892 Sep 25 03:57 skin-blue-light.min.css
+-rwxrwxrwx    1 www-data www-data      3556 Sep 25 03:57 skin-blue.css
+-rwxrwxrwx    1 www-data www-data      3037 Sep 25 03:57 skin-blue.min.css
+-rwxrwxrwx    1 www-data www-data      4277 Sep 25 03:57 skin-green-light.css
+-rwxrwxrwx    1 www-data www-data      3696 Sep 25 03:57 skin-green-light.min.css
+-rwxrwxrwx    1 www-data www-data      3379 Sep 25 03:57 skin-green.css
+-rwxrwxrwx    1 www-data www-data      2889 Sep 25 03:57 skin-green.min.css
+-rwxrwxrwx    1 www-data www-data      4329 Sep 25 03:57 skin-purple-light.css
+-rwxrwxrwx    1 www-data www-data      3746 Sep 25 03:57 skin-purple-light.min.css
+-rwxrwxrwx    1 www-data www-data      3424 Sep 25 03:57 skin-purple.css
+-rwxrwxrwx    1 www-data www-data      2932 Sep 25 03:57 skin-purple.min.css
+-rwxrwxrwx    1 www-data www-data      4173 Sep 25 03:57 skin-red-light.css
+-rwxrwxrwx    1 www-data www-data      3596 Sep 25 03:57 skin-red-light.min.css
+-rwxrwxrwx    1 www-data www-data      3289 Sep 25 03:57 skin-red.css
+-rwxrwxrwx    1 www-data www-data      2803 Sep 25 03:57 skin-red.min.css
+-rwxrwxrwx    1 www-data www-data      4329 Sep 25 03:57 skin-yellow-light.css
+-rwxrwxrwx    1 www-data www-data      3746 Sep 25 03:57 skin-yellow-light.min.css
+-rwxrwxrwx    1 www-data www-data      3424 Sep 25 03:57 skin-yellow.css
+-rwxrwxrwx    1 www-data www-data      2932 Sep 25 03:57 skin-yellow.min.css
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/customer:
+total 52
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ajax
+-rwxrwxrwx    1 www-data www-data      6834 Sep 25 03:57 ask_book_list.php
+-rwxrwxrwx    1 www-data www-data      4124 Sep 25 03:57 ask_book_reply.php
+-rwxrwxrwx    1 www-data www-data      1293 Sep 25 03:57 customer-lnb.php
+-rwxrwxrwx    1 www-data www-data      6833 Sep 25 03:57 feedback_list.php
+-rwxrwxrwx    1 www-data www-data      4124 Sep 25 03:57 feedback_reply.php
+-rwxrwxrwx    1 www-data www-data      7612 Sep 25 03:57 qna_list.php
+-rwxrwxrwx    1 www-data www-data      4724 Sep 25 03:57 qna_reply.php
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/customer/ajax:
+total 8
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+-rwxrwxrwx    1 www-data www-data       639 Sep 25 03:57 qna-delete-selected.php
+-rwxrwxrwx    1 www-data www-data      1013 Sep 25 03:57 qna-reply.php
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/fonts:
+total 1604
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+-rwxrwxrwx    1 www-data www-data    124988 Sep 25 03:57 FontAwesome.otf
+-rwxrwxrwx    1 www-data www-data     76518 Sep 25 03:57 fontawesome-webfont.eot
+-rwxrwxrwx    1 www-data www-data    391622 Sep 25 03:57 fontawesome-webfont.svg
+-rwxrwxrwx    1 www-data www-data    152796 Sep 25 03:57 fontawesome-webfont.ttf
+-rwxrwxrwx    1 www-data www-data     90412 Sep 25 03:57 fontawesome-webfont.woff
+-rwxrwxrwx    1 www-data www-data     71896 Sep 25 03:57 fontawesome-webfont.woff2
+-rwxrwxrwx    1 www-data www-data    120724 Sep 25 03:57 ionicons.eot
+-rwxrwxrwx    1 www-data www-data    333834 Sep 25 03:57 ionicons.svg
+-rwxrwxrwx    1 www-data www-data    188508 Sep 25 03:57 ionicons.ttf
+-rwxrwxrwx    1 www-data www-data     67904 Sep 25 03:57 ionicons.woff
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/images:
+total 12
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+-rwxrwxrwx    1 www-data www-data      5906 Sep 25 03:57 icons.gif
+-rwxrwxrwx    1 www-data www-data      1849 Sep 25 03:57 loading.gif
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 sample
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/images/sample:
+total 2924
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+-rwxrwxrwx    1 www-data www-data      8543 Sep 25 03:57 avatar.png
+-rwxrwxrwx    1 www-data www-data     14037 Sep 25 03:57 avatar04.png
+-rwxrwxrwx    1 www-data www-data      8836 Sep 25 03:57 avatar2.png
+-rwxrwxrwx    1 www-data www-data      9780 Sep 25 03:57 avatar3.png
+-rwxrwxrwx    1 www-data www-data      8007 Sep 25 03:57 avatar5.png
+-rwxrwxrwx    1 www-data www-data    123770 Sep 25 03:57 boxed-bg.jpg
+-rwxrwxrwx    1 www-data www-data     43694 Sep 25 03:57 boxed-bg.png
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 credit
+-rwxrwxrwx    1 www-data www-data       184 Sep 25 03:57 default-50x50.gif
+-rwxrwxrwx    1 www-data www-data      1154 Sep 25 03:57 icons.png
+-rwxrwxrwx    1 www-data www-data    673900 Sep 25 03:57 photo1.png
+-rwxrwxrwx    1 www-data www-data    424395 Sep 25 03:57 photo2.png
+-rwxrwxrwx    1 www-data www-data    392079 Sep 25 03:57 photo3.jpg
+-rwxrwxrwx    1 www-data www-data   1179224 Sep 25 03:57 photo4.jpg
+-rwxrwxrwx    1 www-data www-data      2879 Sep 25 03:57 user1-128x128.jpg
+-rwxrwxrwx    1 www-data www-data      7070 Sep 25 03:57 user2-160x160.jpg
+-rwxrwxrwx    1 www-data www-data      3511 Sep 25 03:57 user3-128x128.jpg
+-rwxrwxrwx    1 www-data www-data      3477 Sep 25 03:57 user4-128x128.jpg
+-rwxrwxrwx    1 www-data www-data      6446 Sep 25 03:57 user5-128x128.jpg
+-rwxrwxrwx    1 www-data www-data      4342 Sep 25 03:57 user6-128x128.jpg
+-rwxrwxrwx    1 www-data www-data      6434 Sep 25 03:57 user7-128x128.jpg
+-rwxrwxrwx    1 www-data www-data      5060 Sep 25 03:57 user8-128x128.jpg
+-rwxrwxrwx    1 www-data www-data     27094 Sep 25 03:57 user9-160x160.jpg
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/images/sample/credit:
+total 28
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+-rwxrwxrwx    1 www-data www-data      2205 Sep 25 03:57 american-express.png
+-rwxrwxrwx    1 www-data www-data      1593 Sep 25 03:57 cirrus.png
+-rwxrwxrwx    1 www-data www-data      1593 Sep 25 03:57 mastercard.png
+-rwxrwxrwx    1 www-data www-data      1588 Sep 25 03:57 mestro.png
+-rwxrwxrwx    1 www-data www-data      2046 Sep 25 03:57 paypal.png
+-rwxrwxrwx    1 www-data www-data      1372 Sep 25 03:57 paypal2.png
+-rwxrwxrwx    1 www-data www-data      1137 Sep 25 03:57 visa.png
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/js:
+total 512
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+-rwxrwxrwx    1 www-data www-data      9773 Sep 25 03:57 app.min.js
+-rwxrwxrwx    1 www-data www-data     46907 Sep 25 03:57 bootstrap-datepicker.js
+-rwxrwxrwx    1 www-data www-data     69691 Sep 25 03:57 elycharts.min.js
+-rwxrwxrwx    1 www-data www-data      8776 Sep 25 03:57 fastclick.min.js
+-rwxrwxrwx    1 www-data www-data      4516 Sep 25 03:57 icheck.min.js
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 jquery
+-rwxrwxrwx    1 www-data www-data     85659 Sep 25 03:57 jquery-2.2.3.min.js
+-rwxrwxrwx    1 www-data www-data    122970 Sep 25 03:57 jquery.flot.js
+-rwxrwxrwx    1 www-data www-data     23808 Sep 25 03:57 jquery.flot.pie.js
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 locales
+-rwxrwxrwx    1 www-data www-data     35652 Sep 25 03:57 morris.min.js
+-rwxrwxrwx    1 www-data www-data     90647 Sep 25 03:57 raphael-min.js
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/js/jquery:
+total 152
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 input-mask
+-rwxrwxrwx    1 www-data www-data     46117 Sep 25 03:57 jquery.contextMenu-1.6.5.js
+-rwxrwxrwx    1 www-data www-data     90846 Sep 25 03:57 jquery.fancytree-all.min.js
+-rwxrwxrwx    1 www-data www-data      1891 Sep 25 03:57 jquery.fancytree.contextMenu.js
+-rwxrwxrwx    1 www-data www-data      4724 Sep 25 03:57 jquery.slimscroll.min.js
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/js/jquery/input-mask:
+total 152
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+-rwxrwxrwx    1 www-data www-data     22814 Sep 25 03:57 jquery.inputmask.date.extensions.js
+-rwxrwxrwx    1 www-data www-data      5315 Sep 25 03:57 jquery.inputmask.extensions.js
+-rwxrwxrwx    1 www-data www-data     90539 Sep 25 03:57 jquery.inputmask.js
+-rwxrwxrwx    1 www-data www-data      9118 Sep 25 03:57 jquery.inputmask.numeric.extensions.js
+-rwxrwxrwx    1 www-data www-data      1576 Sep 25 03:57 jquery.inputmask.phone.extensions.js
+-rwxrwxrwx    1 www-data www-data      9392 Sep 25 03:57 jquery.inputmask.regex.extensions.js
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 phone-codes
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/js/jquery/input-mask/phone-codes:
+total 44
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+-rwxrwxrwx    1 www-data www-data      3631 Sep 25 03:57 phone-be.json
+-rwxrwxrwx    1 www-data www-data     39492 Sep 25 03:57 phone-codes.json
+-rwxrwxrwx    1 www-data www-data        76 Sep 25 03:57 readme.txt
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/js/locales:
+total 4
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+-rwxrwxrwx    1 www-data www-data       637 Sep 25 03:57 bootstrap-datepicker.kr.js
+
+/var/www/html/web/admin/HerosComics_Admin-master/HerosComics_Admin-master/admin/pages:
+total 232
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 .
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ..
+drwxrwxrwx    1 www-data www-data      4096 Sep 28 09:58 ajax
+-rwxrwxrwx    1 www-data www-data     19824 Sep 25 03:57 banner.php
+-rwxrwxrwx    1 www-data www-data      8505 Sep 25 03:57 best.php
+-rwxrwxrwx    1 www-data www-data      7495 Sep 25 03:57 cs_faq_category.php
+-rwxrwxrwx    1 www-data www-data      7072 Sep 25 03:57 cs_faq_edit.php
+-rwxrwxrwx    1 www-data www-data      8275 Sep 25 03:57 cs_faq_list.php
+-rwxrwxrwx    1 www-data www-data      4846 Sep 25 03:57 cs_faq_new.php
+-rwxrwxrwx    1 www-data www-data      4429 Sep 25 03:57 cs_faq_view.php
+-rwxrwxrwx    1 www-data www-data      7584 Sep 25 03:57 cs_terms.php
+-rwxrwxrwx    1 www-data www-data     16213 Sep 25 03:57 curation.php
