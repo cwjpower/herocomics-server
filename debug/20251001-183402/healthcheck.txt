@@ -1,0 +1,19 @@
+http://localhost:8081/uploads/banners/_probe.png -> 200
+
+404 Not Found
+
+404 Not Found
+nginx/1.27.5
+
+
+ -> ERROR: Response status code does not indicate success: 404 (Not Found).
+
+404 Not Found
+
+404 Not Found
+nginx/1.27.5
+
+
+ -> ERROR: Response status code does not indicate success: 404 (Not Found).
+http://localhost:8081/admin/login.php -> 200
+http://localhost:8081/admin/admin_users.php -> 200

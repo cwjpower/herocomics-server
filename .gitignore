@@ -1,29 +1,54 @@
-# Laravel
-/node_modules
-/public/hot
-/public/storage
-/storage/*.key
-/vendor
-.env
-.env.backup
-.phpunit.result.cache
-Homestead.json
-Homestead.yaml
-npm-debug.log
-yarn-error.log
-
-# IDE
-.idea/
-.vscode/
-
-# OS
+# OS / 편집기
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
 
-# Backup files
-*_backup_*
-*_restore
-*.keep
+# 로그/캐시
+*.log
+tmp/
+cache/
 
-# Temporary files
-_tmp_*
+# Docker(비밀/로컬 오버라이드)
+docker/.env
+docker/*.override.yml
+docker/nginx/conf.d/*.local.conf
+
+# 런타임 업로드/진단/테스트 파일(레포 제외 권장)
+app/web/admin/_session_diag.php
+app/web/admin/banner_upload_test.php
+uploads/
+app/uploads/
+app/web/uploads/
+
+# DB 덤프/로컬 DB 데이터
+*.sql
+*.sql.gz
+docker/db-data/
+
+# PHP/Node 의존성
+vendor/
+node_modules/
+# == HeroComics required paths (do not ignore) ==
+!web/
+!web/**
+!app/
+!app/**
+!docker/
+!docker/**
+!scripts/
+!scripts/**
+!_tmp_extract/
+!_tmp_extract/**
+# == local backups & reports ==
+*.bak
+*.bak_
+*_bak*
+_backup_*/
+.git-report/
+# local backups & reports
+*.bak
+*.bak_
+*_bak*
+_backup_*/
+.git-report/

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="861df187-5918-40c0-a301-4cfe234d7d94" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Booktalk2/.gradle/4.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/.gradle/4.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/.gradle/4.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/.gradle/4.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/.gradle/4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/.gradle/4.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/.gradle/4.1/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/.gradle/4.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/.gradle/4.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/.gradle/4.1/javaCompile/taskJars.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/.gradle/4.1/taskHistory/fileSnapshots.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/.gradle/4.1/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/.gradle/4.1/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/.gradle/buildOutputCleanup/built.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/.gradle/buildOutputCleanup/cache.properties.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/.idea/libraries/artifacts_OPENSLibrary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/.idea/libraries/artifacts_OPENSLibrary.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/.idea/libraries/com_android_support_constraint_constraint_layout_1_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/.idea/libraries/com_android_support_constraint_constraint_layout_1_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/.idea/libraries/com_android_support_test_espresso_espresso_core_3_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/.idea/libraries/com_android_support_test_espresso_espresso_core_3_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/.idea/libraries/com_android_support_test_espresso_espresso_idling_resource_3_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/.idea/libraries/com_android_support_test_espresso_espresso_idling_resource_3_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/.idea/libraries/com_android_support_test_rules_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/.idea/libraries/com_android_support_test_rules_1_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/.idea/libraries/com_android_support_test_runner_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/.idea/libraries/com_android_support_test_runner_1_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/OPENSLibrary/OPENSLibrary.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/OPENSLibrary/OPENSLibrary.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/OPENSLibrary/OPENSLibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/OPENSLibrary/OPENSLibrary.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/OPENSLibrary/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/OPENSLibrary/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/OpensLicenseRequester/OpensLicenseRequester.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/OpensLicenseRequester/OpensLicenseRequester.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/OpensLicenseRequester/OpensLicenseRequester.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/OpensLicenseRequester/OpensLicenseRequester.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/OpensLicenseRequester/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/OpensLicenseRequester/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/assets/trees_repackaged.epub" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/assets/trees_repackaged.epub" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/activity/ActionViewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/activity/ActionViewActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/activity/HomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/activity/HomeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/activity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/adapter/ChattingChannelListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/adapter/ChattingChannelListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/adapter/GroupChannelListAdapter_TO_DEL.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/adapter/GroupChannelListAdapter_TO_DEL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/adapter/OpenChannelListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/adapter/OpenChannelListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/adapter/UserListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/adapter/UserListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/drm/ActivationInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/drm/ActivationInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/drm/OpensAuthHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/drm/OpensAuthHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/drm/OpensResourceInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/drm/OpensResourceInputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/drm/OpsActivation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/drm/OpsActivation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/drm/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/drm/TestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/network/RequestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/network/RequestHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/sendbird/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/sendbird/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/utils/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/utils/ConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/utils/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/utils/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/utils/ImageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/utils/ImageUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/utils/PreferenceUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/utils/PreferenceUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/utils/TextUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/utils/TextUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/view/GbWebView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/view/GbWebView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/view/PinchImageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/java/bicon/com/booktalk/view/PinchImageView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/res/drawable-xhdpi/sendbird_img_placeholder.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/res/drawable-xhdpi/sendbird_img_placeholder.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/res/layout/list_item_user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/res/layout/list_item_user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/res/layout/sendbird_view_open_user_message.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/res/layout/sendbird_view_open_user_message.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/app/src/test/java/bicon/com/booktalk/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/app/src/test/java/bicon/com/booktalk/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-11-06-33-480.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-11-06-33-480.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-11-07-05-261.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-11-07-05-261.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-11-07-05-861.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-11-07-05-861.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-11-07-43-125.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-11-07-43-125.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-11-17-51-025.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-11-17-51-025.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-11-22-27-683.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-11-22-27-683.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-11-23-13-891.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-11-23-13-891.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-11-26-55-091.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-11-26-55-091.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-11-27-51-881.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-11-27-51-881.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-11-28-31-176.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-11-28-31-176.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-11-41-34-535.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-11-41-34-535.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-13-02-24-072.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-13-02-24-072.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-13-04-49-512.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-13-04-49-512.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-13-10-40-026.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-13-10-40-026.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-13-12-23-835.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-13-12-23-835.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-13-13-21-036.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-13-13-21-036.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-13-32-08-332.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-13-32-08-332.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-13-34-46-950.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-13-34-46-950.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-13-40-20-817.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-13-40-20-817.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-13-41-21-657.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-13-41-21-657.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-13-41-59-130.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-13-41-59-130.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-13-43-31-120.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-13-43-31-120.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-29-34-847.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-29-34-847.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-30-34-812.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-30-34-812.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-31-59-047.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-31-59-047.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-32-37-297.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-32-37-297.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-34-57-674.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-34-57-674.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-36-02-808.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-36-02-808.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-36-29-143.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-36-29-143.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-36-51-921.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-36-51-921.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-36-59-089.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-36-59-089.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-37-55-784.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-37-55-784.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-44-23-156.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-44-23-156.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-44-53-803.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-44-53-803.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-50-17-452.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-50-17-452.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-54-21-635.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-54-21-635.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-56-18-499.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-56-18-499.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-58-08-666.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-58-08-666.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-58-46-688.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-14-58-46-688.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-15-01-19-413.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-15-01-19-413.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-15-01-41-307.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-15-01-41-307.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-15-04-33-696.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-15-04-33-696.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-15-06-10-965.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-15-06-10-965.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-15-08-10-824.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-15-08-10-824.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-15-10-10-640.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-15-10-10-640.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-15-12-16-358.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-15-12-16-358.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-15-14-01-075.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-15-14-01-075.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-15-15-41-465.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-15-15-41-465.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-15-22-42-458.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-15-22-42-458.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-16-54-46-580.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-16-54-46-580.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-16-55-48-738.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-16-55-48-738.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-03-43-080.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-03-43-080.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-11-06-981.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-11-06-981.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-12-07-657.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-12-07-657.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-14-52-595.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-14-52-595.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-16-33-595.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-16-33-595.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-19-16-286.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-19-16-286.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-21-10-034.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-21-10-034.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-22-31-495.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-22-31-495.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-25-32-614.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-25-32-614.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-26-43-564.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-26-43-564.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-28-12-346.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-28-12-346.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-29-46-227.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-29-46-227.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-38-32-513.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-38-32-513.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-45-00-099.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-45-00-099.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-48-04-990.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-48-04-990.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-49-08-128.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-49-08-128.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-50-22-208.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-17-50-22-208.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-18-01-44-055.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-18-01-44-055.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-18-04-52-519.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-18-04-52-519.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-18-11-12-290.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-18-11-12-290.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-18-11-48-456.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-18-11-48-456.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-18-12-38-723.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-18-12-38-723.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-18-13-27-138.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-18-13-27-138.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-18-14-02-880.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-18-14-02-880.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-18-15-23-538.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-18-15-23-538.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-18-16-53-604.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/build/android-profile/profile-2017-12-14-18-16-53-604.rawproto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booktalk2/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/Booktalk2/gradlew" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Booktalk2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2vJh1bbEjkmAyCPuo8JMpp0rWdl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Upgrade Gradle wrapper.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Again_E-Book/그린브로스코리아/히어로코믹스소스/herocomics_android",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="861df187-5918-40c0-a301-4cfe234d7d94" name="Changes" comment="" />
+      <created>1743868869761</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743868869761</updated>
+      <workItem from="1743868870938" duration="1818000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

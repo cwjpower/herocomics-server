@@ -1,0 +1,12 @@
+# docker-compose.php74.patch.yml
+# 기존 docker-compose.yml에 병합해서 사용하세요.
+# - php 서비스만 7.4로 빌드하도록 정의합니다.
+# - 나머지 서비스(nginx, db 등)는 기존 파일 정의를 그대로 사용하세요.
+services:
+  php:
+    build:
+      context: ./docker/php74
+      dockerfile: Dockerfile
+    volumes:
+      - ./app:/var/www/html
+    # 필요 시 env_file, environment, extra_hosts 등 기존 값 유지/추가

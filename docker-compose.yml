@@ -1,0 +1,58 @@
+# docker-compose.yml  (no 'version:' and no 'container_name:' — 충돌 방지)
+services:
+  mariadb:
+    image: mariadb:11
+    restart: unless-stopped
+    env_file:
+      - ./.env
+    environment:
+      MARIADB_ROOT_PASSWORD: ${MARIADB_ROOT_PASSWORD:-rootpass}
+      MARIADB_DATABASE: ${MARIADB_DATABASE:-herocomics}
+      MARIADB_USER: ${MARIADB_USER:-hero}
+      MARIADB_PASSWORD: ${MARIADB_PASSWORD:-heropass}
+    command:
+      - "--character-set-server=utf8mb4"
+      - "--collation-server=utf8mb4_unicode_ci"
+    volumes:
+      - ../db:/var/lib/mysql
+      # 초기 스키마/데이터 넣을 게 있으면 아래 폴더에 .sql 배치(없으면 이 줄 지워도 됨)
+      - ./ops/initdb:/docker-entrypoint-initdb.d:ro
+    ports:
+      - "33060:3306"
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -uroot -p$${MARIADB_ROOT_PASSWORD} || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  php:
+    image: server-php:latest
+    build:
+      context: ../php82
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    working_dir: /var/www/html
+    env_file:
+      - ./.env
+    environment:
+      # 필요 시 PHP 옵션
+      PHP_MEMORY_LIMIT: "512M"
+    volumes:
+      - ../app:/var/www/html
+    depends_on:
+      mariadb:
+        condition: service_healthy
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  nginx:
+    image: nginx:1.27-alpine
+    restart: unless-stopped
+    depends_on:
+      - php
+    ports:
+      - "8081:80"
+    volumes:
+      - ../app:/var/www/html:ro
+      - ./nginx/conf.d:/etc/nginx/conf.d:ro
+      - ./nginx/logs:/var/log/nginx

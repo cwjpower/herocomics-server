@@ -1,0 +1,19 @@
+services:
+  php:
+    environment:
+      - APP_ENV=production
+      - DB_HOST=mariadb
+      - DB_PORT=3306
+      - DB_NAME=herocomics
+      - DB_USER=hero
+      - DB_PASS=secret
+      - UPLOAD_DIR=/var/www/html/uploads
+    volumes:
+      - /srv/herocomics/app:/var/www/html
+
+  nginx:
+    ports:
+      - "80:80"
+    volumes:
+      - /srv/herocomics/app:/var/www/html:ro
+      - /srv/herocomics/docker/nginx/conf.d/default.conf:/etc/nginx/conf.d/default.conf:ro

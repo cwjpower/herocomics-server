@@ -1,0 +1,19 @@
+server {
+  listen 80;
+  server_name _;
+  root /var/www/html;
+  index index.php index.html;
+
+  # 핑(부팅 확인)
+  location = /ping { return 200 "pong\n"; }
+
+  # /admin 라우팅
+  location /admin/ { try_files $uri $uri/ /admin/index.php?$args; }
+
+  # PHP 처리
+  location ~ \.php$ {
+    include /etc/nginx/fastcgi_params;
+    fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+    fastcgi_pass php:9000;
+  }
+}

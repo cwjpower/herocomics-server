@@ -1,0 +1,29 @@
+server {
+    listen 80;
+    listen [::]:80;
+    server_name _;
+
+    # Yii app document root /var/www/html/HerosComics/HerosComics-2544bc1a68a6142fab6c1c09135e69e9a4673fb7/web;
+    index index.php index.html;
+
+    # Health
+    location = /health { return 200 "OK\n"; add_header Content-Type text/plain; }
+
+    # Pretty URLs
+    location / { try_files $uri $uri/ /index.php?$args; }
+
+    # Admin under web/admin
+    location ^~ /admin/ {
+        try_files $uri $uri/ /admin/index.php?$args;
+    }
+
+    # PHP
+    location ~ \.php$ {
+        include fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        fastcgi_pass php:9000;
+        fastcgi_index index.php;
+    }
+
+    charset utf-8;
+}

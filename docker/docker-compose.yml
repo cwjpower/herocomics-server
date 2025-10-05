@@ -1,0 +1,40 @@
+
+services:
+  nginx:
+    image: nginx:1.27-alpine
+    ports:
+      - "8081:80"
+    volumes:
+      - ../app:/var/www/html
+  # removed: default.conf bind
+  # removed: app\admin bind
+      - C:\herocomics\server\app:/var/www/html
+      - C:\herocomics\server\docker\nginx\conf.d:/etc/nginx/conf.d
+
+
+    depends_on:
+      - php
+
+  php:
+    build:
+      context: ./php
+      dockerfile: Dockerfile
+    expose:
+      - "9000"
+    volumes:
+      - ../app:/var/www/html
+      - C:\herocomics\server\app:/var/www/html
+      - C:\herocomics\server\docker\php82\uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+
+  mariadb:
+    image: mariadb:10.11
+    environment:
+      MARIADB_ROOT_PASSWORD: root
+      MARIADB_DATABASE: herocomics
+      MARIADB_USER: hero
+      MARIADB_PASSWORD: secret
+    ports:
+      - "33060:3306"
+    volumes:
+      - ./mariadb:/var/lib/mysql
+

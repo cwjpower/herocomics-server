@@ -1,0 +1,16 @@
+<?php
+$host = 'mariadb';   // 컨테이너 간 통신은 서비스명
+$user = 'root';
+$pass = getenv('MARIADB_ROOT_PASSWORD') ?: 'heropass';
+$db   = getenv('MARIADB_DATABASE') ?: 'herocomics';
+$port = 3306;
+
+mysqli_report(MYSQLI_REPORT_OFF); // 경고 억제
+$conn = @mysqli_connect($host, $user, $pass, $db, $port);
+if (!$conn) {
+    http_response_code(500);
+    echo "DB: ERR -> " . mysqli_connect_error();
+    exit;
+}
+[$version] = mysqli_fetch_row($conn->query("SELECT VERSION()"));
+echo "DB: OK (" . $version . ")";
