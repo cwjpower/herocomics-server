@@ -52,3 +52,8 @@ _backup_*/
 *_bak*
 _backup_*/
 .git-report/
+.env
+*.log
+*.sql
+docker/certbot/conf/**
+app/web/admin/includes/config.local.php
