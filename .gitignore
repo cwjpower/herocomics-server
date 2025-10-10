@@ -57,3 +57,6 @@ _backup_*/
 *.sql
 docker/certbot/conf/**
 app/web/admin/includes/config.local.php
+
+_tmp_extract/
+app/web_booktalk_backup_*
