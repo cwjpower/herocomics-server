@@ -2,15 +2,13 @@
 header('Content-Type: application/json; charset=utf-8');
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
-header('Access-Control-Allow-Headers: Content-Type');
+header('Access-Control-Allow-Headers: Content-Type, Authorization');  // ← 이거 추가!
 
-// OPTIONS 요청 처리
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     http_response_code(200);
     exit();
 }
 
-// DB 연결 설정
 $host = getenv('DB_HOST') ?: 'herocomics-mariadb';
 $dbname = getenv('DB_NAME') ?: 'herocomics';
 $username = getenv('DB_USER') ?: 'root';
@@ -20,12 +18,10 @@ try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    // 파라미터 받기
     $category = $_GET['category'] ?? '';
     $status = $_GET['status'] ?? '';
     $search = $_GET['search'] ?? '';
 
-    // 쿼리 작성
     $sql = "SELECT 
                 s.series_id,
                 s.publisher_id,
@@ -46,19 +42,16 @@ try {
 
     $params = [];
 
-    // 카테고리 필터
     if ($category) {
         $sql .= " AND s.category = :category";
         $params[':category'] = $category;
     }
 
-    // 상태 필터
     if ($status) {
         $sql .= " AND s.status = :status";
         $params[':status'] = $status;
     }
 
-    // 검색
     if ($search) {
         $sql .= " AND (s.series_name LIKE :search OR s.author LIKE :search)";
         $params[':search'] = "%$search%";
@@ -70,7 +63,6 @@ try {
     $stmt->execute($params);
     $series = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-    // 응답
     echo json_encode([
         'code' => 0,
         'msg' => 'success',

@@ -1,62 +1,28 @@
-# OS / 편집기
-.DS_Store
+# OS
 Thumbs.db
+.DS_Store
+
+# IDE
 .vscode/
 .idea/
 
-# 로그/캐시
-*.log
-tmp/
-cache/
+# Builds
+dist/
+build/
+node_modules/
 
-# Docker(비밀/로컬 오버라이드)
-docker/.env
-docker/*.override.yml
-docker/nginx/conf.d/*.local.conf
+# PHP/서버 비공개
+app/.env
+app/admin/.env
+docker/certbot/conf/google.json
+docker/certbot/conf/**/privkey*.pem
+docker/certbot/conf/**/fullchain*.pem
 
-# 런타임 업로드/진단/테스트 파일(레포 제외 권장)
-app/web/admin/_session_diag.php
-app/web/admin/banner_upload_test.php
-uploads/
-app/uploads/
-app/web/uploads/
-
-# DB 덤프/로컬 DB 데이터
+# DB 덤프
 *.sql
 *.sql.gz
-docker/db-data/
 
-# PHP/Node 의존성
-vendor/
-node_modules/
-# == HeroComics required paths (do not ignore) ==
-!web/
-!web/**
-!app/
-!app/**
-!docker/
-!docker/**
-!scripts/
-!scripts/**
-!_tmp_extract/
-!_tmp_extract/**
-# == local backups & reports ==
-*.bak
-*.bak_
-*_bak*
-_backup_*/
-.git-report/
-# local backups & reports
-*.bak
-*.bak_
-*_bak*
-_backup_*/
-.git-report/
-.env
+# 로그/캐시
 *.log
-*.sql
-docker/certbot/conf/**
-app/web/admin/includes/config.local.php
-
-_tmp_extract/
-app/web_booktalk_backup_*
+app/storage/
+app/cache/
