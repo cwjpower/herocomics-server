@@ -37,3 +37,8 @@ index.php.back
 /naver2b4cea3e29c230c9aff8435b17625055.html
 
 !/includes/css/
+
+# allow apis/pages
+!/apis/
+!/apis/pages/
+!/apis/pages/upload.php
