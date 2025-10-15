@@ -44,20 +44,32 @@ $introduction_book = empty($book_meta['lps_introduction_book']) ? '' : $book_met
 $introduction_author = empty($book_meta['lps_introduction_author']) ? '' : $book_meta['lps_introduction_author'];
 $publisher_review = empty($book_meta['lps_publisher_review']) ? '' : $book_meta['lps_publisher_review'];
 $book_table = empty($book_meta['lps_book_table']) ? '' : $book_meta['lps_book_table'];
+// epub 변수 초기화
+$epub_path = "";
+$epub_url = "";
+$epub_name = "";
 
-$book_cover_img = unserialize($book_meta['lps_book_cover_file']);
+if (!empty($book_meta['lps_book_cover_file'])) {
+    $book_cover_img = @unserialize($book_meta['lps_book_cover_file']);
+    if ($book_cover_img === false) {
+        $book_cover_img = array('file_path' => '', 'file_url' => '', 'file_name' => '');
+    }
+} else {
+    $book_cover_img = array('file_path' => '', 'file_url' => '', 'file_name' => '');
+}
 $cover_path = $book_cover_img['file_path'];
 $cover_url = $book_cover_img['file_url'];
 $cover_name = $book_cover_img['file_name'];
 
+// epub 파일 처리
 if (!empty($book_meta['lps_book_epub_file'])) {
-	$book_epub_file = unserialize($book_meta['lps_book_epub_file']);
-	$epub_path = $book_epub_file['file_path'];
-	$epub_url = $book_epub_file['file_url'];
-	$epub_name = $book_epub_file['file_name'];
+    $book_epub_file = @unserialize($book_meta['lps_book_epub_file']);
+    if ($book_epub_file !== false) {
+        $epub_path = $book_epub_file['file_path'];
+        $epub_url = $book_epub_file['file_url'];
+        $epub_name = $book_epub_file['file_name'];
+    }
 }
-
-
 // 책 카테고리
 $book_cate_first = wps_fancytree_root_node_by_name('wps_category_books');
 $book_cate_second = lps_get_term_by_id($category_first);
@@ -458,8 +470,8 @@ require_once './books-lnb.php';
 															<p class="help-block">jpg, gif, png 파일 포멧을 이용해 주십시오. Max. 5MB</p>
 														</div>
 														<ul id="preview-cover_img" class="list-group">
-												<?php 
-												if (is_file($cover_path)) {
+												<?php
+                                                if (!empty($cover_path) && is_file($cover_path)) {
 												?>
 															<li class="list-group-item">
 																<input type="hidden" name="file_path_cover[]" value="<?php echo $cover_path ?>">

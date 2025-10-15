@@ -129,13 +129,11 @@ class WpsDatabase extends mysqli
 	}
 
 	public function __destruct() {
-		if (isset($this->mysqli)) {
-			@$this->mysqli->close();
-			unset($this->mysqli);
-			if (!empty($this->mysqli)) {
-				echo '<h4>Connection is not yet closed.</h4>';
-			}
-		}
+       //f (isset($this->mysqli) && $this->mysqli instanceof mysqli) {
+		//$this->mysqli->close();
+			//unset($this->mysqli);
+        return;
+
 	}
 }
 ?>

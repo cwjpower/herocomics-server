@@ -105,10 +105,15 @@ require_once './pages-lnb.php';
 						alert("등록범위를 선택해 주십시오.");
 						return false;
 					}
-					if ( $.trim($("#post_content").val()) == "" ) {
+                    if ( $.trim(CKEDITOR.instances.post_content.getData()) == "" ) {
 						alert("내용을 입력해 주십시오.");
 						return false;
 					}
+
+                    // CKEditor 데이터를 textarea에 업데이트
+                    for (instance in CKEDITOR.instances) {
+                        CKEDITOR.instances[instance].updateElement();
+                    }
 
 					showLoader();
 
@@ -116,7 +121,7 @@ require_once './pages-lnb.php';
 						type : "POST",
 						url : "./ajax/post-new.php",
 // 						data : $(this).serialize(),
-						data : $(this).serializeObject(),
+                        data : $(this).serialize(),
 						dataType : "json",
 						success: function(xhr) {
 							hideLoader();

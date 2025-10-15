@@ -113,6 +113,11 @@ function add_news() {
             $new_val['file_size'] = $_FILES['attachment']['size'][$key];
             $new_val['file_type'] = $_FILES['attachment']['type'][$key];
             $result = move_uploaded_file( $_FILES['attachment']['tmp_name'][$key], $new_val['file_path'] );
+            // 이 아래에 추가
+            if (!$result) {
+                error_log("Upload failed: " . $_FILES['attachment']['tmp_name'][$key] . " -> " . $new_val['file_path']);
+                error_log("Upload error: " . print_r(error_get_last(), true));
+            }
 
             $thumb_suffix = '-thumb';
             $thumb_width = 360 ;

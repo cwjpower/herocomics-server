@@ -19,8 +19,9 @@ $u = trim($_POST["username"] ?? "");
 $p = $_POST["password"] ?? "";
 
 try {
-  $pdo = new PDO("mysql:host=mariadb;dbname=herocomics;charset=utf8mb4","hero","secret",
-                 [PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION]);
+    // 수정 ✅
+    $pdo = new PDO("mysql:host=mariadb;dbname=herocomics;charset=utf8mb4","root","rootpass",
+        [PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION]);
   $stmt = $pdo->prepare("SELECT id, username, password_hash FROM admin_users WHERE username = ?");
   $stmt->execute([$u]);
   $user = $stmt->fetch(PDO::FETCH_ASSOC);

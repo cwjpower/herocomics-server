@@ -50,15 +50,15 @@ require_once './pages-lnb.php';
                             </div>
                             <div class="radio">
                                 <label>
-                                    <input type="radio" name="comics_brand" id="marvel" value="1" checked>
+                                    <input type="radio" name="comics_brand" id="marvel" value="MARVEL" checked>
                                     마블
                                 </label>
                                 <label>
-                                    <input type="radio" name="comics_brand" id="dc" value="2">
+                                    <input type="radio" name="comics_brand" id="dc" value="DC">
                                     디씨
                                 </label>
                                 <label>
-                                    <input type="radio" name="comics_brand" id="image" value="3">
+                                    <input type="radio" name="comics_brand" id="image" value="IMAGE">
                                     이미지
                                 </label>
 
@@ -149,24 +149,33 @@ require_once './pages-lnb.php';
 
         $("#form-news").submit(function(e) {
             e.preventDefault();
+            for (instance in CKEDITOR.instances) {
+                CKEDITOR.instances[instance].updateElement();
+            }
             showLoader();
-            //ajaxSubmit
+
             $("#form-news").ajaxSubmit({
                 type : "POST",
                 url : "./ajax/news-save.php",
-                data : $(this).serialize(),
                 dataType : "json",
                 success : function(res) {
+                    hideLoader();
+                    console.log('Response:', res);
                     if (res.code == "0") {
                         location.href = "./news_list.php";
                     } else {
-                        hideLoader();
                         alert(res.msg);
                     }
+                },
+                error: function(xhr, status, error) {
+                    hideLoader();
+                    console.error('Ajax Error:', error);
+                    alert('등록 중 오류가 발생했습니다.');
                 }
             });
         });
-    });
+    }); // ← 이거!
+
 
 
 

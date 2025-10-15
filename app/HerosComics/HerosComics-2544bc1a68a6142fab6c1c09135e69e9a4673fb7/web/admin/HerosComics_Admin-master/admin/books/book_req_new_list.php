@@ -158,6 +158,7 @@ require_once './books-lnb.php';
 							$book_id = $val['ID'];
 							$publisher = $val['publisher'];
 							$book_title = $val['book_title'];
+                                                        $publisher = $val['publisher']; 
 							$upload_type = $val['upload_type'];
 							$book_status = $val['book_status'];
 							$created_dt = date('y.m.d H:i', strtotime($val['created_dt']));

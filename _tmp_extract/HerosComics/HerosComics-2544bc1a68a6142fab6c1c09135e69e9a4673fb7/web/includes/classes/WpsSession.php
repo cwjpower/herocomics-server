@@ -20,7 +20,11 @@ class WpsSession
 		array(&$this, 'sessDestroy'),
 		array(&$this, 'sessGC'));
 		register_shutdown_function('session_write_close');
-		session_start();
+        // 세션 설정 추가
+        // 세션 에러 방지
+        ini_set('session.serialize_handler', 'php');
+        ini_set('session.save_handler', 'user');
+        @session_start();
 	}
 
 	public function sessOpen($save_path, $session_name) {

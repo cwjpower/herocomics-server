@@ -172,7 +172,9 @@ require_once './books-lnb.php';
 
                                 if ( !empty($val['user_id']) ) {
                                     $user_data = wps_get_user_by( 'ID', $val['user_id'] );
-                                    $post_name = $user_data['user_name'];
+                                    $post_name = !empty($user_data) ? $user_data['user_name'] : 'Unknown';
+                                } else {
+                                    $post_name = 'Unknown';
                                 }
                         ?>
 
